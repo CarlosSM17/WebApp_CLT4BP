@@ -1,0 +1,6513 @@
+{
+ "_nota": "GENERADO por banco/generar.py: no lo edites a mano.",
+ "temas": [
+  {
+   "lenguajes": [],
+   "orden": 10,
+   "clave": "algoritmos",
+   "titulo": "Algoritmos y resolución de problemas",
+   "horas": 4,
+   "prerrequisitos": [],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension"
+   ],
+   "descripcion": "Describir en pasos ordenados o en pseudocódigo la solución de un problema sencillo, identificando entradas, proceso y salidas, de modo que otra persona pueda seguirla sin ambigüedad.",
+   "complejidad": "Primer contacto: se razona la solución sin escribir código real."
+  },
+  {
+   "lenguajes": [],
+   "orden": 20,
+   "clave": "estructura-programa",
+   "titulo": "Estructura de un programa y tipos de error",
+   "horas": 2,
+   "prerrequisitos": [
+    "algoritmos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Escribir y ejecutar un programa mínimo, y clasificar los errores que aparezcan en sintaxis, ejecución o lógica a partir del mensaje del sistema y de su comportamiento.",
+   "complejidad": "Se pasa del pseudocódigo a un programa real que se ejecuta."
+  },
+  {
+   "lenguajes": [],
+   "orden": 30,
+   "clave": "tipos-variables",
+   "titulo": "Tipos de datos, variables y constantes",
+   "horas": 3,
+   "prerrequisitos": [
+    "estructura-programa"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Declarar variables y constantes con el tipo adecuado a cada dato de un problema y asignarles valores, prediciendo correctamente su contenido después de cada asignación.",
+   "complejidad": "El programa empieza a guardar datos: aparece el modelo mental de la memoria."
+  },
+  {
+   "lenguajes": [],
+   "orden": 40,
+   "clave": "entrada-salida",
+   "titulo": "Entrada y salida estándar",
+   "horas": 3,
+   "prerrequisitos": [
+    "tipos-variables"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Leer datos del teclado y mostrar resultados con el formato pedido en programas sencillos, de modo que la salida coincida exactamente con la especificada.",
+   "complejidad": "El programa deja de ser fijo: responde a datos que da el usuario."
+  },
+  {
+   "lenguajes": [],
+   "orden": 50,
+   "clave": "operadores-expresiones",
+   "titulo": "Operadores y expresiones",
+   "horas": 3,
+   "prerrequisitos": [
+    "tipos-variables"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Evaluar y escribir expresiones aritméticas, relacionales y lógicas aplicando la precedencia y la conversión de tipos, y obtener el resultado correcto sin ejecutarlas.",
+   "complejidad": "Se combinan varios datos y operaciones en una sola expresión."
+  },
+  {
+   "lenguajes": [],
+   "orden": 60,
+   "clave": "condicionales",
+   "titulo": "Estructuras condicionales",
+   "horas": 4,
+   "prerrequisitos": [
+    "operadores-expresiones",
+    "entrada-salida"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Resolver problemas que exigen decidir entre varios caminos usando condicionales simples, anidados y de selección múltiple, cubriendo todos los casos que plantea el enunciado.",
+   "complejidad": "El flujo deja de ser lineal: el programa elige entre caminos."
+  },
+  {
+   "lenguajes": [],
+   "orden": 70,
+   "clave": "ciclos",
+   "titulo": "Ciclos, contadores y acumuladores",
+   "horas": 6,
+   "prerrequisitos": [
+    "condicionales"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Resolver problemas que exigen repetir un proceso, eligiendo el ciclo adecuado y usando contadores y acumuladores, de modo que el programa termine y dé el resultado correcto en los casos límite.",
+   "complejidad": "El flujo se repite: hay que razonar sobre muchas vueltas y sobre cuándo terminar."
+  },
+  {
+   "lenguajes": [],
+   "orden": 80,
+   "clave": "ciclos-anidados",
+   "titulo": "Ciclos anidados",
+   "horas": 3,
+   "prerrequisitos": [
+    "ciclos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Escribir y trazar ciclos anidados para generar patrones y tablas, determinando cuántas veces se ejecuta cada instrucción.",
+   "complejidad": "Repeticiones dentro de repeticiones: se multiplica lo que hay que seguir mentalmente."
+  },
+  {
+   "lenguajes": [],
+   "orden": 90,
+   "clave": "funciones",
+   "titulo": "Funciones: parámetros, retorno y alcance",
+   "horas": 6,
+   "prerrequisitos": [
+    "ciclos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Descomponer un problema en funciones con parámetros y valor de retorno, distinguiendo el alcance de sus variables, de modo que cada función se pueda probar por separado.",
+   "complejidad": "El programa se divide en piezas que se comunican entre sí."
+  },
+  {
+   "lenguajes": [],
+   "orden": 100,
+   "clave": "recursion",
+   "titulo": "Recursión",
+   "horas": 4,
+   "prerrequisitos": [
+    "funciones"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Escribir y trazar funciones recursivas con su caso base y su caso recursivo, explicando cómo se reduce el problema en cada llamada.",
+   "complejidad": "Una función se llama a sí misma: hay que seguir varias llamadas abiertas a la vez."
+  },
+  {
+   "lenguajes": [],
+   "orden": 110,
+   "clave": "arreglos",
+   "titulo": "Arreglos y listas",
+   "horas": 6,
+   "prerrequisitos": [
+    "ciclos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Almacenar y recorrer colecciones de datos con arreglos o listas para contar, sumar y encontrar máximos o mínimos, sin salirse de los índices válidos.",
+   "complejidad": "Muchos datos bajo un mismo nombre: aparecen los índices."
+  },
+  {
+   "lenguajes": [],
+   "orden": 120,
+   "clave": "matrices",
+   "titulo": "Matrices",
+   "horas": 4,
+   "prerrequisitos": [
+    "arreglos",
+    "ciclos-anidados"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Representar tablas de datos con matrices y recorrerlas por filas y columnas con ciclos anidados para calcular resultados por fila, por columna o en la diagonal.",
+   "complejidad": "Dos índices a la vez, combinando arreglos y ciclos anidados."
+  },
+  {
+   "lenguajes": [],
+   "orden": 130,
+   "clave": "cadenas",
+   "titulo": "Cadenas de caracteres",
+   "horas": 4,
+   "prerrequisitos": [
+    "arreglos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Leer, recorrer y transformar cadenas de caracteres para resolver problemas de texto, respetando cómo representa el lenguaje el fin de la cadena o su longitud.",
+   "complejidad": "Los arreglos se aplican a texto, con sus reglas propias."
+  },
+  {
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "orden": 140,
+   "clave": "apuntadores",
+   "titulo": "Apuntadores",
+   "horas": 6,
+   "prerrequisitos": [
+    "arreglos",
+    "funciones"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Declarar y usar apuntadores para acceder a variables y modificar datos desde una función, dibujando correctamente qué dirección guarda cada apuntador en cada paso.",
+   "complejidad": "Se razona sobre direcciones de memoria, no solo sobre valores."
+  },
+  {
+   "lenguajes": [],
+   "orden": 150,
+   "clave": "estructuras",
+   "titulo": "Estructuras y registros",
+   "horas": 4,
+   "prerrequisitos": [
+    "arreglos",
+    "funciones"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Agrupar datos relacionados en estructuras o registros y procesar colecciones de ellos, accediendo a cada campo por su nombre.",
+   "complejidad": "Los datos se organizan por significado: colecciones de registros con varios campos."
+  },
+  {
+   "lenguajes": [],
+   "orden": 160,
+   "clave": "archivos",
+   "titulo": "Archivos de texto",
+   "horas": 3,
+   "prerrequisitos": [
+    "cadenas",
+    "ciclos"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Escribir datos en un archivo de texto y volver a leerlos para procesarlos, abriendo y cerrando el archivo correctamente y atendiendo el caso de que no se pueda abrir.",
+   "complejidad": "Los datos sobreviven al programa: aparecen recursos externos que pueden fallar."
+  },
+  {
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "orden": 170,
+   "clave": "memoria-dinamica",
+   "titulo": "Memoria dinámica",
+   "horas": 4,
+   "prerrequisitos": [
+    "apuntadores",
+    "estructuras"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Reservar y liberar memoria en tiempo de ejecución para datos cuyo tamaño se conoce hasta ejecutar el programa, sin dejar fugas de memoria.",
+   "complejidad": "El programador administra la memoria y es responsable de liberarla."
+  },
+  {
+   "lenguajes": [],
+   "orden": 180,
+   "clave": "busqueda-ordenamiento",
+   "titulo": "Búsqueda y ordenamiento",
+   "horas": 4,
+   "prerrequisitos": [
+    "arreglos",
+    "funciones",
+    "ciclos-anidados"
+   ],
+   "tipo": "habilidad",
+   "evaluacion": [
+    "recall",
+    "comprension",
+    "practica"
+   ],
+   "descripcion": "Implementar búsqueda lineal y un algoritmo de ordenamiento básico, comparando cuántas operaciones requieren según el número de datos.",
+   "complejidad": "Se integra todo lo anterior en algoritmos clásicos y se empieza a pensar en su eficiencia."
+  }
+ ],
+ "items": [
+  {
+   "codigo": "algoritmos-comun-01",
+   "tema": "algoritmos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué es un algoritmo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Un programa ya compilado"
+     },
+     {
+      "id": "b",
+      "texto": "Una secuencia finita y ordenada de pasos que resuelve un problema"
+     },
+     {
+      "id": "c",
+      "texto": "Un lenguaje de programación"
+     },
+     {
+      "id": "d",
+      "texto": "Un error frecuente al programar"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "algoritmos-comun-02",
+   "tema": "algoritmos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un programa debe calcular el promedio de tres calificaciones. ¿Cuáles son sus **entradas**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "El promedio"
+     },
+     {
+      "id": "b",
+      "texto": "La suma de las calificaciones"
+     },
+     {
+      "id": "c",
+      "texto": "Las tres calificaciones"
+     },
+     {
+      "id": "d",
+      "texto": "El número 3"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "algoritmos-comun-03",
+   "tema": "algoritmos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cómo se llama la notación informal que describe un algoritmo sin usar la sintaxis de un lenguaje de programación?"
+   },
+   "clave": {
+    "aceptadas": [
+     "pseudocódigo",
+     "pseudocodigo",
+     "seudocódigo",
+     "seudocodigo"
+    ]
+   }
+  },
+  {
+   "codigo": "algoritmos-comun-04",
+   "tema": "algoritmos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un algoritmo para preparar café dice: «Sirve el café. Hierve el agua. Agrega el café al agua.» ¿Qué propiedad le falta?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Que sea finito"
+     },
+     {
+      "id": "b",
+      "texto": "Que tenga los pasos en el orden correcto"
+     },
+     {
+      "id": "c",
+      "texto": "Que use un lenguaje de programación"
+     },
+     {
+      "id": "d",
+      "texto": "Que tenga una entrada numérica"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "algoritmos-comun-05",
+   "tema": "algoritmos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En el problema «dado el precio y la cantidad, mostrar el total a pagar», ¿qué parte es el **proceso**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Leer el precio"
+     },
+     {
+      "id": "b",
+      "texto": "Multiplicar el precio por la cantidad"
+     },
+     {
+      "id": "c",
+      "texto": "Mostrar el total"
+     },
+     {
+      "id": "d",
+      "texto": "Leer la cantidad"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "estructura-programa-comun-01",
+   "tema": "estructura-programa",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Escribir mal una palabra reservada del lenguaje es un error de…",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "lógica"
+     },
+     {
+      "id": "b",
+      "texto": "ejecución"
+     },
+     {
+      "id": "c",
+      "texto": "sintaxis"
+     },
+     {
+      "id": "d",
+      "texto": "diseño"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "estructura-programa-comun-02",
+   "tema": "estructura-programa",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un programa se ejecuta sin ningún mensaje de error, pero calcula mal el total a pagar. ¿Qué tipo de error tiene?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "De sintaxis"
+     },
+     {
+      "id": "b",
+      "texto": "De lógica"
+     },
+     {
+      "id": "c",
+      "texto": "De compilación"
+     },
+     {
+      "id": "d",
+      "texto": "Del sistema operativo"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "estructura-programa-comun-03",
+   "tema": "estructura-programa",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un programa funciona con casi todos los datos, pero se detiene de golpe al dividir entre cero. ¿Qué tipo de error es?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "De sintaxis"
+     },
+     {
+      "id": "b",
+      "texto": "De ejecución"
+     },
+     {
+      "id": "c",
+      "texto": "De formato"
+     },
+     {
+      "id": "d",
+      "texto": "De comentario"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "tipos-variables-comun-01",
+   "tema": "tipos-variables",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué es una variable?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Un espacio con nombre para guardar un valor que puede cambiar"
+     },
+     {
+      "id": "b",
+      "texto": "Un valor que nunca cambia"
+     },
+     {
+      "id": "c",
+      "texto": "Una instrucción que repite código"
+     },
+     {
+      "id": "d",
+      "texto": "Un mensaje que se muestra en pantalla"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "a"
+   }
+  },
+  {
+   "codigo": "tipos-variables-comun-02",
+   "tema": "tipos-variables",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué tipo de dato conviene para guardar la estatura de una persona en metros, por ejemplo 1.72?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Entero"
+     },
+     {
+      "id": "b",
+      "texto": "Real (punto flotante)"
+     },
+     {
+      "id": "c",
+      "texto": "Carácter"
+     },
+     {
+      "id": "d",
+      "texto": "Lógico"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "tipos-variables-comun-03",
+   "tema": "tipos-variables",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué tipo de dato conviene para guardar si un estudiante ya pagó su inscripción?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Entero"
+     },
+     {
+      "id": "b",
+      "texto": "Real"
+     },
+     {
+      "id": "c",
+      "texto": "Lógico (verdadero o falso)"
+     },
+     {
+      "id": "d",
+      "texto": "Carácter"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "entrada-salida-comun-01",
+   "tema": "entrada-salida",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un programa pide la edad y muestra si la persona es mayor de edad. ¿Cuál es su **salida**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "La edad que escribe el usuario"
+     },
+     {
+      "id": "b",
+      "texto": "El mensaje que indica si es mayor de edad"
+     },
+     {
+      "id": "c",
+      "texto": "El número 18"
+     },
+     {
+      "id": "d",
+      "texto": "La comparación entre la edad y 18"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-comun-01",
+   "tema": "operadores-expresiones",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En la expresión `2 + 3 * 4`, ¿qué operación se realiza primero?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "La suma"
+     },
+     {
+      "id": "b",
+      "texto": "La multiplicación"
+     },
+     {
+      "id": "c",
+      "texto": "Se evalúan al mismo tiempo"
+     },
+     {
+      "id": "d",
+      "texto": "Depende de los espacios"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-comun-02",
+   "tema": "operadores-expresiones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Si `x` es verdadero y `y` es falso, ¿cuánto vale `x Y (NO y)`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Verdadero"
+     },
+     {
+      "id": "b",
+      "texto": "Falso"
+     },
+     {
+      "id": "c",
+      "texto": "No se puede saber"
+     },
+     {
+      "id": "d",
+      "texto": "Es un error"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "a"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-comun-03",
+   "tema": "operadores-expresiones",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cuánto vale la expresión `10 - 2 * 3`? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "4"
+    ]
+   }
+  },
+  {
+   "codigo": "condicionales-comun-01",
+   "tema": "condicionales",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Para qué sirve una estructura condicional?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Para repetir instrucciones varias veces"
+     },
+     {
+      "id": "b",
+      "texto": "Para ejecutar instrucciones solo si se cumple una condición"
+     },
+     {
+      "id": "c",
+      "texto": "Para guardar datos en un archivo"
+     },
+     {
+      "id": "d",
+      "texto": "Para declarar variables"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "condicionales-comun-02",
+   "tema": "condicionales",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un descuento aplica solo si la compra es de 100 o más **y** el cliente es socio. ¿Con qué operador lógico se unen las dos condiciones?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "O (OR)"
+     },
+     {
+      "id": "b",
+      "texto": "Y (AND)"
+     },
+     {
+      "id": "c",
+      "texto": "NO (NOT)"
+     },
+     {
+      "id": "d",
+      "texto": "Ninguno: basta una condición"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "condicionales-comun-03",
+   "tema": "condicionales",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Para clasificar una calificación en «reprobado», «regular» o «excelente», ¿qué estructura es la más natural?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Un solo `si` sin alternativa"
+     },
+     {
+      "id": "b",
+      "texto": "Una cadena de `si / si no` (condicionales anidados o encadenados)"
+     },
+     {
+      "id": "c",
+      "texto": "Un ciclo"
+     },
+     {
+      "id": "d",
+      "texto": "Una función recursiva"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "ciclos-comun-01",
+   "tema": "ciclos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué es un ciclo infinito?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Un ciclo que usa números muy grandes"
+     },
+     {
+      "id": "b",
+      "texto": "Un ciclo cuya condición de término nunca se cumple"
+     },
+     {
+      "id": "c",
+      "texto": "Un ciclo dentro de otro ciclo"
+     },
+     {
+      "id": "d",
+      "texto": "Un ciclo que no se ejecuta ninguna vez"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "ciclos-comun-02",
+   "tema": "ciclos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué variable se usa normalmente para ir sumando valores dentro de un ciclo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Una bandera"
+     },
+     {
+      "id": "b",
+      "texto": "Un contador"
+     },
+     {
+      "id": "c",
+      "texto": "Un acumulador"
+     },
+     {
+      "id": "d",
+      "texto": "Una constante"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "ciclos-comun-03",
+   "tema": "ciclos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cómo se llama la variable que aumenta de uno en uno para llevar la cuenta de cuántas veces ocurre algo?"
+   },
+   "clave": {
+    "aceptadas": [
+     "contador",
+     "un contador"
+    ]
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-comun-01",
+   "tema": "ciclos-anidados",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un ciclo externo se repite 3 veces y, en cada vuelta, un ciclo interno se repite 4 veces. ¿Cuántas veces se ejecuta el cuerpo del ciclo interno?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "4"
+     },
+     {
+      "id": "b",
+      "texto": "7"
+     },
+     {
+      "id": "c",
+      "texto": "12"
+     },
+     {
+      "id": "d",
+      "texto": "34"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-comun-02",
+   "tema": "ciclos-anidados",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un ciclo externo se repite 5 veces y el interno 2 veces por cada vuelta del externo. ¿Cuántas veces se ejecuta el cuerpo del interno? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "10"
+    ]
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-comun-03",
+   "tema": "ciclos-anidados",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Para imprimir una tabla de 5 filas y 8 columnas, ¿qué suele controlar el ciclo **externo**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Las columnas"
+     },
+     {
+      "id": "b",
+      "texto": "Las filas"
+     },
+     {
+      "id": "c",
+      "texto": "El ancho de cada celda"
+     },
+     {
+      "id": "d",
+      "texto": "El total de celdas"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "funciones-comun-01",
+   "tema": "funciones",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cuál es una ventaja principal de dividir un programa en funciones?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "El programa siempre se ejecuta más rápido"
+     },
+     {
+      "id": "b",
+      "texto": "Se reutiliza código y cada parte se entiende y se prueba por separado"
+     },
+     {
+      "id": "c",
+      "texto": "Ya no hacen falta variables"
+     },
+     {
+      "id": "d",
+      "texto": "Se evitan todos los errores"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "funciones-comun-02",
+   "tema": "funciones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En la llamada `area(3, 5)`, ¿qué son `3` y `5`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Parámetros formales"
+     },
+     {
+      "id": "b",
+      "texto": "Argumentos"
+     },
+     {
+      "id": "c",
+      "texto": "Variables globales"
+     },
+     {
+      "id": "d",
+      "texto": "Valores de retorno"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "funciones-comun-03",
+   "tema": "funciones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Una variable declarada dentro de una función…",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "se puede usar desde cualquier parte del programa"
+     },
+     {
+      "id": "b",
+      "texto": "solo existe dentro de esa función"
+     },
+     {
+      "id": "c",
+      "texto": "conserva su valor al terminar el programa"
+     },
+     {
+      "id": "d",
+      "texto": "se vuelve constante"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "recursion-comun-01",
+   "tema": "recursion",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En una función recursiva, ¿qué es el **caso base**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "La primera línea de la función"
+     },
+     {
+      "id": "b",
+      "texto": "La condición en la que la función deja de llamarse a sí misma"
+     },
+     {
+      "id": "c",
+      "texto": "La llamada recursiva"
+     },
+     {
+      "id": "d",
+      "texto": "El valor de mayor tamaño que acepta"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "recursion-comun-02",
+   "tema": "recursion",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué ocurre si una función recursiva no tiene caso base alcanzable?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Devuelve cero"
+     },
+     {
+      "id": "b",
+      "texto": "Se llama a sí misma sin fin hasta agotar la memoria de la pila"
+     },
+     {
+      "id": "c",
+      "texto": "El compilador la convierte en un ciclo"
+     },
+     {
+      "id": "d",
+      "texto": "Se ejecuta una sola vez"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "recursion-comun-03",
+   "tema": "recursion",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cómo se llama el caso que detiene la recursión?"
+   },
+   "clave": {
+    "aceptadas": [
+     "caso base",
+     "el caso base",
+     "base"
+    ]
+   }
+  },
+  {
+   "codigo": "arreglos-comun-01",
+   "tema": "arreglos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En C, C++ y Python, ¿qué índice tiene el primer elemento de un arreglo o lista?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "0"
+     },
+     {
+      "id": "b",
+      "texto": "1"
+     },
+     {
+      "id": "c",
+      "texto": "-1"
+     },
+     {
+      "id": "d",
+      "texto": "Depende del tamaño"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "a"
+   }
+  },
+  {
+   "codigo": "arreglos-comun-02",
+   "tema": "arreglos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Un arreglo tiene 10 elementos. ¿Cuál es el índice del último?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "10"
+     },
+     {
+      "id": "b",
+      "texto": "9"
+     },
+     {
+      "id": "c",
+      "texto": "11"
+     },
+     {
+      "id": "d",
+      "texto": "1"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "matrices-comun-01",
+   "tema": "matrices",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "Una matriz tiene 3 filas y 4 columnas. ¿Cuántos elementos tiene?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "7"
+     },
+     {
+      "id": "b",
+      "texto": "12"
+     },
+     {
+      "id": "c",
+      "texto": "34"
+     },
+     {
+      "id": "d",
+      "texto": "43"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "matrices-comun-02",
+   "tema": "matrices",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En `m[i][j]`, con la convención habitual, ¿qué indica `i`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "La columna"
+     },
+     {
+      "id": "b",
+      "texto": "La fila"
+     },
+     {
+      "id": "c",
+      "texto": "El tamaño"
+     },
+     {
+      "id": "d",
+      "texto": "El valor"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "archivos-comun-01",
+   "tema": "archivos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Por qué hay que cerrar un archivo al terminar de usarlo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Para borrarlo del disco"
+     },
+     {
+      "id": "b",
+      "texto": "Para asegurar que los datos se guarden y liberar el recurso"
+     },
+     {
+      "id": "c",
+      "texto": "Para cambiarle el nombre"
+     },
+     {
+      "id": "d",
+      "texto": "No es necesario nunca"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-comun-01",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Qué condición necesitan los datos para aplicar búsqueda **binaria**?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Que sean números pares"
+     },
+     {
+      "id": "b",
+      "texto": "Que estén ordenados"
+     },
+     {
+      "id": "c",
+      "texto": "Que no se repitan"
+     },
+     {
+      "id": "d",
+      "texto": "Que sean menos de 100"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-comun-02",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "En el peor caso, ¿cuántas comparaciones hace una búsqueda lineal en una lista de `n` elementos?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "1"
+     },
+     {
+      "id": "b",
+      "texto": "n / 2"
+     },
+     {
+      "id": "c",
+      "texto": "n"
+     },
+     {
+      "id": "d",
+      "texto": "n al cuadrado"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-comun-03",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [],
+   "enunciado": {
+    "md": "¿Cómo se llama el ordenamiento que compara pares de elementos vecinos y los intercambia si están desordenados?"
+   },
+   "clave": {
+    "aceptadas": [
+     "burbuja",
+     "ordenamiento de burbuja",
+     "ordenamiento burbuja",
+     "bubble sort",
+     "método de la burbuja"
+    ]
+   }
+  },
+  {
+   "codigo": "algoritmos-c-01",
+   "tema": "algoritmos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int precio = 12;\n    int cantidad = 3;\n    int total = precio * cantidad;\n    printf(\"%d\\n\", total);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "36\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int precio = 12;\n    int cantidad = 3;\n    int total = precio * cantidad;\n    printf(\"%d\\n\", total);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "36\n"
+   }
+  },
+  {
+   "codigo": "algoritmos-c-02",
+   "tema": "algoritmos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena los pasos del programa que calcula el total a pagar y lo imprime: primero los datos, luego el proceso y al final la salida.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int precio = 20;"
+     },
+     {
+      "id": "l2",
+      "texto": "int cantidad = 4;"
+     },
+     {
+      "id": "l3",
+      "texto": "int total = precio * cantidad;"
+     },
+     {
+      "id": "l4",
+      "texto": "printf(\"%d\\n\", total);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int precio = 20;\n    int cantidad = 4;\n    int total = precio * cantidad;\n    printf(\"%d\\n\", total);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "80\n"
+   }
+  },
+  {
+   "codigo": "algoritmos-c-03",
+   "tema": "algoritmos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Una tienda cobra el precio por la cantidad comprada. Lee dos enteros, `precio` y `cantidad`, e imprime el total a pagar."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int precio, cantidad;\n    scanf(\"%d %d\", &precio, &cantidad);\n    printf(\"%d\\n\", precio * cantidad);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "20 4",
+     "salida_esperada": "80",
+     "oculto": false
+    },
+    {
+     "entrada": "7 1",
+     "salida_esperada": "7",
+     "oculto": false
+    },
+    {
+     "entrada": "0 10",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "estructura-programa-c-01",
+   "tema": "estructura-programa",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Cómo se llama la función en la que empieza a ejecutarse todo programa en C?"
+   },
+   "clave": {
+    "aceptadas": [
+     "main",
+     "main()"
+    ]
+   }
+  },
+  {
+   "codigo": "estructura-programa-c-02",
+   "tema": "estructura-programa",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    printf(\"Hola\\n\");\n    printf(\"mundo\\n\");\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "Hola\nmundo\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    printf(\"Hola\\n\");\n    printf(\"mundo\\n\");\n    return 0;\n}",
+    "entrada": "",
+    "salida": "Hola\nmundo\n"
+   }
+  },
+  {
+   "codigo": "estructura-programa-c-03",
+   "tema": "estructura-programa",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para formar un programa completo que imprima `Hola`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "#include <stdio.h>"
+     },
+     {
+      "id": "l2",
+      "texto": "int main(void) {"
+     },
+     {
+      "id": "l3",
+      "texto": "    printf(\"Hola\\n\");"
+     },
+     {
+      "id": "l4",
+      "texto": "    return 0;"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\nint main(void) {\n    printf(\"Hola\\n\");\n    return 0;\n}",
+    "entrada": "",
+    "salida": "Hola\n"
+   }
+  },
+  {
+   "codigo": "estructura-programa-c-04",
+   "tema": "estructura-programa",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Escribe un programa que imprima exactamente `Hola, mundo`."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    printf(\"Hola, mundo\\n\");\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "",
+     "salida_esperada": "Hola, mundo",
+     "oculto": false
+    }
+   ]
+  },
+  {
+   "codigo": "tipos-variables-c-01",
+   "tema": "tipos-variables",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué tipo de C es el adecuado para guardar una cantidad entera de alumnos?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "char"
+     },
+     {
+      "id": "b",
+      "texto": "int"
+     },
+     {
+      "id": "c",
+      "texto": "double"
+     },
+     {
+      "id": "d",
+      "texto": "void"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "tipos-variables-c-02",
+   "tema": "tipos-variables",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Completa la palabra reservada que declara una constante: `____ int MAX = 10;`"
+   },
+   "clave": {
+    "aceptadas": [
+     "const"
+    ]
+   }
+  },
+  {
+   "codigo": "tipos-variables-c-03",
+   "tema": "tipos-variables",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int a = 5;\n    int b = a;\n    a = 9;\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "9 5\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 5;\n    int b = a;\n    a = 9;\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "9 5\n"
+   }
+  },
+  {
+   "codigo": "tipos-variables-c-04",
+   "tema": "tipos-variables",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para intercambiar los valores de `a` y `b` usando una variable auxiliar. Debe imprimir `2 1`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int a = 1;"
+     },
+     {
+      "id": "l2",
+      "texto": "int b = 2;"
+     },
+     {
+      "id": "l3",
+      "texto": "int aux = a;"
+     },
+     {
+      "id": "l4",
+      "texto": "a = b;"
+     },
+     {
+      "id": "l5",
+      "texto": "b = aux;"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d %d\\n\", a, b);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 1;\n    int b = 2;\n    int aux = a;\n    a = b;\n    b = aux;\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "2 1\n"
+   }
+  },
+  {
+   "codigo": "tipos-variables-c-05",
+   "tema": "tipos-variables",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee el ancho y el alto de un rectángulo (dos enteros) e imprime su área."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int ancho, alto;\n    scanf(\"%d %d\", &ancho, &alto);\n    int area = ancho * alto;\n    printf(\"%d\\n\", area);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3 4",
+     "salida_esperada": "12",
+     "oculto": false
+    },
+    {
+     "entrada": "10 2",
+     "salida_esperada": "20",
+     "oculto": false
+    },
+    {
+     "entrada": "0 5",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "entrada-salida-c-01",
+   "tema": "entrada-salida",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué especificador de formato se usa para imprimir un `double` con `printf`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "%d"
+     },
+     {
+      "id": "b",
+      "texto": "%f"
+     },
+     {
+      "id": "c",
+      "texto": "%c"
+     },
+     {
+      "id": "d",
+      "texto": "%s"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "entrada-salida-c-02",
+   "tema": "entrada-salida",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Por qué `scanf(\"%d\", &n)` lleva `&` antes de `n`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Porque `n` es una constante"
+     },
+     {
+      "id": "b",
+      "texto": "Porque `scanf` necesita la dirección de la variable para guardar ahí el dato"
+     },
+     {
+      "id": "c",
+      "texto": "Porque indica que el número es entero"
+     },
+     {
+      "id": "d",
+      "texto": "Es opcional: sirve de adorno"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "entrada-salida-c-03",
+   "tema": "entrada-salida",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de C lee datos con formato desde el teclado?"
+   },
+   "clave": {
+    "aceptadas": [
+     "scanf",
+     "scanf()"
+    ]
+   }
+  },
+  {
+   "codigo": "entrada-salida-c-04",
+   "tema": "entrada-salida",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    printf(\"%d-%d\\n\", 3, 4);\n    printf(\"%.2f\\n\", 1.5);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "3-4\n1.50\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    printf(\"%d-%d\\n\", 3, 4);\n    printf(\"%.2f\\n\", 1.5);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "3-4\n1.50\n"
+   }
+  },
+  {
+   "codigo": "entrada-salida-c-05",
+   "tema": "entrada-salida",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas: el programa lee un entero e imprime su doble. Con la entrada `21` debe imprimir `42`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int n;"
+     },
+     {
+      "id": "l2",
+      "texto": "scanf(\"%d\", &n);"
+     },
+     {
+      "id": "l3",
+      "texto": "int doble = n * 2;"
+     },
+     {
+      "id": "l4",
+      "texto": "printf(\"%d\\n\", doble);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    int doble = n * 2;\n    printf(\"%d\\n\", doble);\n    return 0;\n}",
+    "entrada": "21",
+    "salida": "42\n"
+   }
+  },
+  {
+   "codigo": "entrada-salida-c-06",
+   "tema": "entrada-salida",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee una hora y un minuto (dos enteros) e imprímelos con el formato `HH:MM`, siempre con dos dígitos."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int h, m;\n    scanf(\"%d %d\", &h, &m);\n    printf(\"%02d:%02d\\n\", h, m);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "7 5",
+     "salida_esperada": "07:05",
+     "oculto": false
+    },
+    {
+     "entrada": "12 30",
+     "salida_esperada": "12:30",
+     "oculto": false
+    },
+    {
+     "entrada": "0 0",
+     "salida_esperada": "00:00",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "operadores-expresiones-c-01",
+   "tema": "operadores-expresiones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "En C, con `int a = 7;` y `int b = 2;`, ¿cuánto vale `a / b`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "3.5"
+     },
+     {
+      "id": "b",
+      "texto": "3"
+     },
+     {
+      "id": "c",
+      "texto": "4"
+     },
+     {
+      "id": "d",
+      "texto": "1"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-c-02",
+   "tema": "operadores-expresiones",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué operador de C obtiene el residuo de una división entera? Escribe solo el símbolo."
+   },
+   "clave": {
+    "aceptadas": [
+     "%"
+    ]
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-c-03",
+   "tema": "operadores-expresiones",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int a = 17;\n    printf(\"%d %d\\n\", a / 5, a % 5);\n    printf(\"%.1f\\n\", a / 5.0);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "3 2\n3.4\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 17;\n    printf(\"%d %d\\n\", a / 5, a % 5);\n    printf(\"%.1f\\n\", a / 5.0);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "3 2\n3.4\n"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-c-04",
+   "tema": "operadores-expresiones",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para calcular el promedio de tres calificaciones. Debe imprimir `8.33`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int a = 7;"
+     },
+     {
+      "id": "l2",
+      "texto": "int b = 8;"
+     },
+     {
+      "id": "l3",
+      "texto": "int c = 10;"
+     },
+     {
+      "id": "l4",
+      "texto": "int suma = a + b + c;"
+     },
+     {
+      "id": "l5",
+      "texto": "double promedio = suma / 3.0;"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%.2f\\n\", promedio);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 7;\n    int b = 8;\n    int c = 10;\n    int suma = a + b + c;\n    double promedio = suma / 3.0;\n    printf(\"%.2f\\n\", promedio);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "8.33\n"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-c-05",
+   "tema": "operadores-expresiones",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee una cantidad de segundos (entero) e imprime cuántas horas, minutos y segundos son, separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int s;\n    scanf(\"%d\", &s);\n    printf(\"%d %d %d\\n\", s / 3600, s % 3600 / 60, s % 60);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3661",
+     "salida_esperada": "1 1 1",
+     "oculto": false
+    },
+    {
+     "entrada": "59",
+     "salida_esperada": "0 0 59",
+     "oculto": false
+    },
+    {
+     "entrada": "7200",
+     "salida_esperada": "2 0 0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "condicionales-c-01",
+   "tema": "condicionales",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué palabra se usa dentro de un `switch` para que no siga al caso siguiente?"
+   },
+   "clave": {
+    "aceptadas": [
+     "break",
+     "break;"
+    ]
+   }
+  },
+  {
+   "codigo": "condicionales-c-02",
+   "tema": "condicionales",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "En C, ¿qué hace `if (x = 5)`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Compara `x` con 5"
+     },
+     {
+      "id": "b",
+      "texto": "Asigna 5 a `x` y la condición siempre resulta verdadera"
+     },
+     {
+      "id": "c",
+      "texto": "No compila nunca"
+     },
+     {
+      "id": "d",
+      "texto": "Compara y después asigna"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "condicionales-c-03",
+   "tema": "condicionales",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int n = 15;\n    if (n % 3 == 0 && n % 5 == 0) {\n        printf(\"ambos\\n\");\n    } else if (n % 3 == 0) {\n        printf(\"tres\\n\");\n    } else {\n        printf(\"otro\\n\");\n    }\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "ambos\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int n = 15;\n    if (n % 3 == 0 && n % 5 == 0) {\n        printf(\"ambos\\n\");\n    } else if (n % 3 == 0) {\n        printf(\"tres\\n\");\n    } else {\n        printf(\"otro\\n\");\n    }\n    return 0;\n}",
+    "entrada": "",
+    "salida": "ambos\n"
+   }
+  },
+  {
+   "codigo": "condicionales-c-04",
+   "tema": "condicionales",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para imprimir el mayor de dos números. Debe imprimir `8`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int a = 8;"
+     },
+     {
+      "id": "l2",
+      "texto": "int b = 3;"
+     },
+     {
+      "id": "l3",
+      "texto": "if (a > b) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    printf(\"%d\\n\", a);"
+     },
+     {
+      "id": "l5",
+      "texto": "} else {"
+     },
+     {
+      "id": "l6",
+      "texto": "    printf(\"%d\\n\", b);"
+     },
+     {
+      "id": "l7",
+      "texto": "}"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 8;\n    int b = 3;\n    if (a > b) {\n        printf(\"%d\\n\", a);\n    } else {\n        printf(\"%d\\n\", b);\n    }\n    return 0;\n}",
+    "entrada": "",
+    "salida": "8\n"
+   }
+  },
+  {
+   "codigo": "condicionales-c-05",
+   "tema": "condicionales",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee un año e imprime `BISIESTO` si es bisiesto o `NORMAL` si no. Un año es bisiesto si es múltiplo de 4, salvo los múltiplos de 100 que no sean múltiplos de 400."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int a;\n    scanf(\"%d\", &a);\n    if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0) {\n        printf(\"BISIESTO\\n\");\n    } else {\n        printf(\"NORMAL\\n\");\n    }\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "2024",
+     "salida_esperada": "BISIESTO",
+     "oculto": false
+    },
+    {
+     "entrada": "2023",
+     "salida_esperada": "NORMAL",
+     "oculto": false
+    },
+    {
+     "entrada": "1900",
+     "salida_esperada": "NORMAL",
+     "oculto": false
+    },
+    {
+     "entrada": "2000",
+     "salida_esperada": "BISIESTO",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "ciclos-c-01",
+   "tema": "ciclos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué ciclo de C ejecuta su cuerpo al menos una vez, porque revisa la condición al final?"
+   },
+   "clave": {
+    "aceptadas": [
+     "do-while",
+     "do while",
+     "do...while",
+     "do"
+    ]
+   }
+  },
+  {
+   "codigo": "ciclos-c-02",
+   "tema": "ciclos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int s = 0;\n    for (int i = 1; i <= 4; i++) {\n        s += i;\n    }\n    printf(\"%d\\n\", s);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "10\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int s = 0;\n    for (int i = 1; i <= 4; i++) {\n        s += i;\n    }\n    printf(\"%d\\n\", s);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "10\n"
+   }
+  },
+  {
+   "codigo": "ciclos-c-03",
+   "tema": "ciclos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para sumar los números pares del 2 al 10. Debe imprimir `30`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int suma = 0;"
+     },
+     {
+      "id": "l2",
+      "texto": "for (int i = 2; i <= 10; i += 2) {"
+     },
+     {
+      "id": "l3",
+      "texto": "    suma += i;"
+     },
+     {
+      "id": "l4",
+      "texto": "}"
+     },
+     {
+      "id": "l5",
+      "texto": "printf(\"%d\\n\", suma);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int suma = 0;\n    for (int i = 2; i <= 10; i += 2) {\n        suma += i;\n    }\n    printf(\"%d\\n\", suma);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "30\n"
+   }
+  },
+  {
+   "codigo": "ciclos-c-04",
+   "tema": "ciclos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee enteros positivos hasta encontrar un `0` (que no cuenta). Imprime cuántos números leíste y su suma, separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int n, cuantos = 0, suma = 0;\n    scanf(\"%d\", &n);\n    while (n != 0) {\n        cuantos++;\n        suma += n;\n        scanf(\"%d\", &n);\n    }\n    printf(\"%d %d\\n\", cuantos, suma);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3 5 2 0",
+     "salida_esperada": "3 10",
+     "oculto": false
+    },
+    {
+     "entrada": "0",
+     "salida_esperada": "0 0",
+     "oculto": false
+    },
+    {
+     "entrada": "7 0",
+     "salida_esperada": "1 7",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "ciclos-anidados-c-01",
+   "tema": "ciclos-anidados",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    for (int i = 1; i <= 2; i++) {\n        for (int j = 1; j <= 3; j++) {\n            printf(\"%d\", i * j);\n        }\n        printf(\"\\n\");\n    }\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "123\n246\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    for (int i = 1; i <= 2; i++) {\n        for (int j = 1; j <= 3; j++) {\n            printf(\"%d\", i * j);\n        }\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+    "entrada": "",
+    "salida": "123\n246\n"
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-c-02",
+   "tema": "ciclos-anidados",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para dibujar este triángulo:\n\n```\n*\n**\n***\n```",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "for (int i = 1; i <= 3; i++) {"
+     },
+     {
+      "id": "l2",
+      "texto": "    for (int j = 1; j <= i; j++) {"
+     },
+     {
+      "id": "l3",
+      "texto": "        printf(\"*\");"
+     },
+     {
+      "id": "l4",
+      "texto": "    } // fin del ciclo de j"
+     },
+     {
+      "id": "l5",
+      "texto": "    printf(\"\\n\");"
+     },
+     {
+      "id": "l6",
+      "texto": "} // fin del ciclo de i"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    for (int i = 1; i <= 3; i++) {\n        for (int j = 1; j <= i; j++) {\n            printf(\"*\");\n        } // fin del ciclo de j\n        printf(\"\\n\");\n    } // fin del ciclo de i\n    return 0;\n}",
+    "entrada": "",
+    "salida": "*\n**\n***\n"
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-c-03",
+   "tema": "ciclos-anidados",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee un entero `n` e imprime la tabla de multiplicar de `n` por `n`: `n` filas con los valores separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= n; j++) {\n            if (j > 1) {\n                printf(\" \");\n            }\n            printf(\"%d\", i * j);\n        }\n        printf(\"\\n\");\n    }\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "2",
+     "salida_esperada": "1 2\n2 4",
+     "oculto": false
+    },
+    {
+     "entrada": "3",
+     "salida_esperada": "1 2 3\n2 4 6\n3 6 9",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "1",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "funciones-c-01",
+   "tema": "funciones",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué palabra se escribe como tipo de retorno de una función de C que no devuelve ningún valor?"
+   },
+   "clave": {
+    "aceptadas": [
+     "void"
+    ]
+   }
+  },
+  {
+   "codigo": "funciones-c-02",
+   "tema": "funciones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "En C, si una función modifica su parámetro `int x`, ¿qué le pasa a la variable que se usó como argumento?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Cambia igual que `x`"
+     },
+     {
+      "id": "b",
+      "texto": "No cambia: el parámetro recibe una copia del valor"
+     },
+     {
+      "id": "c",
+      "texto": "Se borra al terminar la función"
+     },
+     {
+      "id": "d",
+      "texto": "El programa no compila"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "funciones-c-03",
+   "tema": "funciones",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint doble(int x) {\n    x = x * 2;\n    return x;\n}\n\nint main(void) {\n    int a = 4;\n    int b = doble(a);\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "4 8\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint doble(int x) {\n    x = x * 2;\n    return x;\n}\n\nint main(void) {\n    int a = 4;\n    int b = doble(a);\n    printf(\"%d %d\\n\", a, b);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "4 8\n"
+   }
+  },
+  {
+   "codigo": "funciones-c-04",
+   "tema": "funciones",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para formar un programa que defina `cuadrado` y la use. Debe imprimir `25`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "#include <stdio.h>"
+     },
+     {
+      "id": "l2",
+      "texto": "int cuadrado(int x) {"
+     },
+     {
+      "id": "l3",
+      "texto": "    return x * x;"
+     },
+     {
+      "id": "l4",
+      "texto": "} // fin de cuadrado"
+     },
+     {
+      "id": "l5",
+      "texto": "int main(void) {"
+     },
+     {
+      "id": "l6",
+      "texto": "    printf(\"%d\\n\", cuadrado(5));"
+     },
+     {
+      "id": "l7",
+      "texto": "    return 0;"
+     },
+     {
+      "id": "l8",
+      "texto": "} // fin de main"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\nint cuadrado(int x) {\n    return x * x;\n} // fin de cuadrado\nint main(void) {\n    printf(\"%d\\n\", cuadrado(5));\n    return 0;\n} // fin de main",
+    "entrada": "",
+    "salida": "25\n"
+   }
+  },
+  {
+   "codigo": "funciones-c-05",
+   "tema": "funciones",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Escribe la función `int es_primo(int n)` y úsala: lee un entero e imprime `SI` si es primo o `NO` si no lo es."
+   },
+   "solucion": "#include <stdio.h>\n\nint es_primo(int n) {\n    if (n < 2) {\n        return 0;\n    }\n    for (int d = 2; d * d <= n; d++) {\n        if (n % d == 0) {\n            return 0;\n        }\n    }\n    return 1;\n}\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    printf(\"%s\\n\", es_primo(n) ? \"SI\" : \"NO\");\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "7",
+     "salida_esperada": "SI",
+     "oculto": false
+    },
+    {
+     "entrada": "9",
+     "salida_esperada": "NO",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "NO",
+     "oculto": false
+    },
+    {
+     "entrada": "2",
+     "salida_esperada": "SI",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "recursion-c-01",
+   "tema": "recursion",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nvoid f(int n) {\n    if (n == 0) {\n        return;\n    }\n    f(n - 1);\n    printf(\"%d\\n\", n);\n}\n\nint main(void) {\n    f(3);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "1\n2\n3\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nvoid f(int n) {\n    if (n == 0) {\n        return;\n    }\n    f(n - 1);\n    printf(\"%d\\n\", n);\n}\n\nint main(void) {\n    f(3);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "1\n2\n3\n"
+   }
+  },
+  {
+   "codigo": "recursion-c-02",
+   "tema": "recursion",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para formar un programa con el factorial recursivo. Debe imprimir `120`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "#include <stdio.h>"
+     },
+     {
+      "id": "l2",
+      "texto": "int fact(int n) {"
+     },
+     {
+      "id": "l3",
+      "texto": "    if (n <= 1) return 1;"
+     },
+     {
+      "id": "l4",
+      "texto": "    return n * fact(n - 1);"
+     },
+     {
+      "id": "l5",
+      "texto": "} // fin de fact"
+     },
+     {
+      "id": "l6",
+      "texto": "int main(void) {"
+     },
+     {
+      "id": "l7",
+      "texto": "    printf(\"%d\\n\", fact(5));"
+     },
+     {
+      "id": "l8",
+      "texto": "    return 0;"
+     },
+     {
+      "id": "l9",
+      "texto": "} // fin de main"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8",
+     "l9"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\nint fact(int n) {\n    if (n <= 1) return 1;\n    return n * fact(n - 1);\n} // fin de fact\nint main(void) {\n    printf(\"%d\\n\", fact(5));\n    return 0;\n} // fin de main",
+    "entrada": "",
+    "salida": "120\n"
+   }
+  },
+  {
+   "codigo": "recursion-c-03",
+   "tema": "recursion",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Escribe una función recursiva para Fibonacci, con `F(0) = 0` y `F(1) = 1`. Lee `n` e imprime `F(n)`."
+   },
+   "solucion": "#include <stdio.h>\n\nint fib(int n) {\n    if (n < 2) {\n        return n;\n    }\n    return fib(n - 1) + fib(n - 2);\n}\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    printf(\"%d\\n\", fib(n));\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "0",
+     "salida_esperada": "0",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "1",
+     "oculto": false
+    },
+    {
+     "entrada": "10",
+     "salida_esperada": "55",
+     "oculto": false
+    },
+    {
+     "entrada": "7",
+     "salida_esperada": "13",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "arreglos-c-01",
+   "tema": "arreglos",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Con la declaración `int v[5];`, ¿cuántos enteros caben en `v`? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "5"
+    ]
+   }
+  },
+  {
+   "codigo": "arreglos-c-02",
+   "tema": "arreglos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "En C, ¿qué pasa al escribir en `v[10]` si `v` tiene 5 elementos?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "El arreglo crece solo"
+     },
+     {
+      "id": "b",
+      "texto": "Es un acceso fuera de los límites: el comportamiento no está definido"
+     },
+     {
+      "id": "c",
+      "texto": "Se guarda en `v[4]`"
+     },
+     {
+      "id": "d",
+      "texto": "El compilador siempre lo rechaza"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "arreglos-c-03",
+   "tema": "arreglos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int v[4] = {3, 1, 4, 1};\n    int s = 0;\n    for (int i = 0; i < 4; i++) {\n        s += v[i];\n    }\n    printf(\"%d %d\\n\", s, v[2]);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "9 4\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int v[4] = {3, 1, 4, 1};\n    int s = 0;\n    for (int i = 0; i < 4; i++) {\n        s += v[i];\n    }\n    printf(\"%d %d\\n\", s, v[2]);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "9 4\n"
+   }
+  },
+  {
+   "codigo": "arreglos-c-04",
+   "tema": "arreglos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para encontrar el mayor elemento del arreglo. Debe imprimir `9`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int v[5] = {4, 9, 2, 7, 5};"
+     },
+     {
+      "id": "l2",
+      "texto": "int max = v[0];"
+     },
+     {
+      "id": "l3",
+      "texto": "for (int i = 1; i < 5; i++) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    if (v[i] > max) max = v[i];"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d\\n\", max);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int v[5] = {4, 9, 2, 7, 5};\n    int max = v[0];\n    for (int i = 1; i < 5; i++) {\n        if (v[i] > max) max = v[i];\n    }\n    printf(\"%d\\n\", max);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "9\n"
+   }
+  },
+  {
+   "codigo": "arreglos-c-05",
+   "tema": "arreglos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee un entero `n` y después `n` enteros. Imprímelos en orden inverso, separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    int v[1000];\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &v[i]);\n    }\n    for (int i = n - 1; i >= 0; i--) {\n        printf(\"%d\", v[i]);\n        if (i > 0) {\n            printf(\" \");\n        }\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3\n1 2 3",
+     "salida_esperada": "3 2 1",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n9",
+     "salida_esperada": "9",
+     "oculto": false
+    },
+    {
+     "entrada": "4\n5 6 7 8",
+     "salida_esperada": "8 7 6 5",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "matrices-c-01",
+   "tema": "matrices",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "En `int m[2][3];`, ¿cuál es el último índice válido de **fila**? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "1"
+    ]
+   }
+  },
+  {
+   "codigo": "matrices-c-02",
+   "tema": "matrices",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int m[2][3] = {{1, 2, 3}, {4, 5, 6}};\n    printf(\"%d %d\\n\", m[1][0], m[0][2]);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "4 3\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int m[2][3] = {{1, 2, 3}, {4, 5, 6}};\n    printf(\"%d %d\\n\", m[1][0], m[0][2]);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "4 3\n"
+   }
+  },
+  {
+   "codigo": "matrices-c-03",
+   "tema": "matrices",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para sumar la diagonal principal de la matriz. Debe imprimir `15`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int m[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};"
+     },
+     {
+      "id": "l2",
+      "texto": "int suma = 0;"
+     },
+     {
+      "id": "l3",
+      "texto": "for (int i = 0; i < 3; i++) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    suma += m[i][i];"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d\\n\", suma);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int m[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\n    int suma = 0;\n    for (int i = 0; i < 3; i++) {\n        suma += m[i][i];\n    }\n    printf(\"%d\\n\", suma);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "15\n"
+   }
+  },
+  {
+   "codigo": "matrices-c-04",
+   "tema": "matrices",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee `f` y `c` y después una matriz de `f` filas y `c` columnas. Imprime la suma de cada fila, una por renglón."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int f, c, x;\n    scanf(\"%d %d\", &f, &c);\n    for (int i = 0; i < f; i++) {\n        int suma = 0;\n        for (int j = 0; j < c; j++) {\n            scanf(\"%d\", &x);\n            suma += x;\n        }\n        printf(\"%d\\n\", suma);\n    }\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "2 2\n1 2\n3 4",
+     "salida_esperada": "3\n7",
+     "oculto": false
+    },
+    {
+     "entrada": "1 3\n1 1 1",
+     "salida_esperada": "3",
+     "oculto": false
+    },
+    {
+     "entrada": "3 1\n5\n6\n7",
+     "salida_esperada": "5\n6\n7",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "cadenas-c-01",
+   "tema": "cadenas",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Con qué carácter termina toda cadena en C?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "`\\n`"
+     },
+     {
+      "id": "b",
+      "texto": "`\\0`"
+     },
+     {
+      "id": "c",
+      "texto": "Un espacio"
+     },
+     {
+      "id": "d",
+      "texto": "`.`"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "cadenas-c-02",
+   "tema": "cadenas",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Por qué `char s[5] = \"Hola\";` cabe exactamente?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Porque cada letra ocupa medio espacio"
+     },
+     {
+      "id": "b",
+      "texto": "Porque son 4 letras más el carácter de fin de cadena"
+     },
+     {
+      "id": "c",
+      "texto": "Porque C agrega espacio solo"
+     },
+     {
+      "id": "d",
+      "texto": "No cabe: hacen falta 10 espacios"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "cadenas-c-03",
+   "tema": "cadenas",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de `<string.h>` devuelve la longitud de una cadena?"
+   },
+   "clave": {
+    "aceptadas": [
+     "strlen",
+     "strlen()"
+    ]
+   }
+  },
+  {
+   "codigo": "cadenas-c-04",
+   "tema": "cadenas",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n#include <string.h>\n\nint main(void) {\n    char s[] = \"Hola\";\n    printf(\"%d %c\\n\", (int) strlen(s), s[1]);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "4 o\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n#include <string.h>\n\nint main(void) {\n    char s[] = \"Hola\";\n    printf(\"%d %c\\n\", (int) strlen(s), s[1]);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "4 o\n"
+   }
+  },
+  {
+   "codigo": "cadenas-c-05",
+   "tema": "cadenas",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para contar cuántas letras `a` tiene la palabra. Debe imprimir `3`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "char s[] = \"banana\";"
+     },
+     {
+      "id": "l2",
+      "texto": "int n = 0;"
+     },
+     {
+      "id": "l3",
+      "texto": "for (int i = 0; s[i] != '\\0'; i++) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    if (s[i] == 'a') n++;"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d\\n\", n);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    char s[] = \"banana\";\n    int n = 0;\n    for (int i = 0; s[i] != '\\0'; i++) {\n        if (s[i] == 'a') n++;\n    }\n    printf(\"%d\\n\", n);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "3\n"
+   }
+  },
+  {
+   "codigo": "cadenas-c-06",
+   "tema": "cadenas",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee una palabra (sin espacios, de 100 letras como máximo) e imprímela al revés."
+   },
+   "solucion": "#include <stdio.h>\n#include <string.h>\n\nint main(void) {\n    char s[101];\n    scanf(\"%100s\", s);\n    for (int i = (int) strlen(s) - 1; i >= 0; i--) {\n        printf(\"%c\", s[i]);\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "hola",
+     "salida_esperada": "aloh",
+     "oculto": false
+    },
+    {
+     "entrada": "a",
+     "salida_esperada": "a",
+     "oculto": false
+    },
+    {
+     "entrada": "abcde",
+     "salida_esperada": "edcba",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "apuntadores-c-01",
+   "tema": "apuntadores",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué devuelve el operador `&` aplicado a una variable?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Su valor"
+     },
+     {
+      "id": "b",
+      "texto": "Su dirección de memoria"
+     },
+     {
+      "id": "c",
+      "texto": "Su tamaño"
+     },
+     {
+      "id": "d",
+      "texto": "Su tipo"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "apuntadores-c-02",
+   "tema": "apuntadores",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Después de `int x = 5; int *p = &x; *p = 8;`, ¿cuánto vale `x`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "5"
+     },
+     {
+      "id": "b",
+      "texto": "8"
+     },
+     {
+      "id": "c",
+      "texto": "La dirección de `p`"
+     },
+     {
+      "id": "d",
+      "texto": "No se puede saber"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "apuntadores-c-03",
+   "tema": "apuntadores",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué operador se usa para acceder al valor al que apunta un apuntador? Escribe solo el símbolo."
+   },
+   "clave": {
+    "aceptadas": [
+     "*"
+    ]
+   }
+  },
+  {
+   "codigo": "apuntadores-c-04",
+   "tema": "apuntadores",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int a = 1;\n    int *p = &a;\n    *p += 4;\n    printf(\"%d %d\\n\", a, *p);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "5 5\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int a = 1;\n    int *p = &a;\n    *p += 4;\n    printf(\"%d %d\\n\", a, *p);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "5 5\n"
+   }
+  },
+  {
+   "codigo": "apuntadores-c-05",
+   "tema": "apuntadores",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para formar un programa que intercambie dos variables mediante apuntadores. Debe imprimir `2 1`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "#include <stdio.h>"
+     },
+     {
+      "id": "l2",
+      "texto": "void intercambia(int *a, int *b) {"
+     },
+     {
+      "id": "l3",
+      "texto": "    int t = *a;"
+     },
+     {
+      "id": "l4",
+      "texto": "    *a = *b;"
+     },
+     {
+      "id": "l5",
+      "texto": "    *b = t;"
+     },
+     {
+      "id": "l6",
+      "texto": "} // fin de intercambia"
+     },
+     {
+      "id": "l7",
+      "texto": "int main(void) {"
+     },
+     {
+      "id": "l8",
+      "texto": "    int x = 1, y = 2;"
+     },
+     {
+      "id": "l9",
+      "texto": "    intercambia(&x, &y);"
+     },
+     {
+      "id": "l10",
+      "texto": "    printf(\"%d %d\\n\", x, y);"
+     },
+     {
+      "id": "l11",
+      "texto": "    return 0;"
+     },
+     {
+      "id": "l12",
+      "texto": "} // fin de main"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8",
+     "l9",
+     "l10",
+     "l11",
+     "l12"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\nvoid intercambia(int *a, int *b) {\n    int t = *a;\n    *a = *b;\n    *b = t;\n} // fin de intercambia\nint main(void) {\n    int x = 1, y = 2;\n    intercambia(&x, &y);\n    printf(\"%d %d\\n\", x, y);\n    return 0;\n} // fin de main",
+    "entrada": "",
+    "salida": "2 1\n"
+   }
+  },
+  {
+   "codigo": "apuntadores-c-06",
+   "tema": "apuntadores",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Escribe `void minmax(int *v, int n, int *min, int *max)`, que deja en `*min` y `*max` el menor y el mayor del arreglo. Lee `n` y `n` enteros e imprime el menor y el mayor, separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nvoid minmax(int *v, int n, int *min, int *max) {\n    *min = v[0];\n    *max = v[0];\n    for (int i = 1; i < n; i++) {\n        if (v[i] < *min) {\n            *min = v[i];\n        }\n        if (v[i] > *max) {\n            *max = v[i];\n        }\n    }\n}\n\nint main(void) {\n    int n, v[1000], menor, mayor;\n    scanf(\"%d\", &n);\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &v[i]);\n    }\n    minmax(v, n, &menor, &mayor);\n    printf(\"%d %d\\n\", menor, mayor);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3\n5 1 9",
+     "salida_esperada": "1 9",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n4",
+     "salida_esperada": "4 4",
+     "oculto": false
+    },
+    {
+     "entrada": "4\n-1 -5 0 2",
+     "salida_esperada": "-5 2",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "estructuras-c-01",
+   "tema": "estructuras",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué palabra reservada de C define un registro con varios campos?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "class"
+     },
+     {
+      "id": "b",
+      "texto": "struct"
+     },
+     {
+      "id": "c",
+      "texto": "record"
+     },
+     {
+      "id": "d",
+      "texto": "enum"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "estructuras-c-02",
+   "tema": "estructuras",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Con `struct P { int x; };`, después de `struct P a = {1}; struct P b = a; b.x = 9;`, ¿cuánto vale `a.x`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "1"
+     },
+     {
+      "id": "b",
+      "texto": "9"
+     },
+     {
+      "id": "c",
+      "texto": "0"
+     },
+     {
+      "id": "d",
+      "texto": "No compila"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "a"
+   }
+  },
+  {
+   "codigo": "estructuras-c-03",
+   "tema": "estructuras",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué operador accede a un campo a través de un apuntador a estructura? Escribe solo el símbolo."
+   },
+   "clave": {
+    "aceptadas": [
+     "->"
+    ]
+   }
+  },
+  {
+   "codigo": "estructuras-c-04",
+   "tema": "estructuras",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nstruct P {\n    int x;\n    int y;\n};\n\nint main(void) {\n    struct P a = {2, 3};\n    a.x = a.x * 2;\n    printf(\"%d %d\\n\", a.x, a.y);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "4 3\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nstruct P {\n    int x;\n    int y;\n};\n\nint main(void) {\n    struct P a = {2, 3};\n    a.x = a.x * 2;\n    printf(\"%d %d\\n\", a.x, a.y);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "4 3\n"
+   }
+  },
+  {
+   "codigo": "estructuras-c-05",
+   "tema": "estructuras",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para formar un programa que declare una estructura y use su campo. Debe imprimir `20`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "#include <stdio.h>"
+     },
+     {
+      "id": "l2",
+      "texto": "struct Alumno {"
+     },
+     {
+      "id": "l3",
+      "texto": "    int edad;"
+     },
+     {
+      "id": "l4",
+      "texto": "}; // fin de la estructura"
+     },
+     {
+      "id": "l5",
+      "texto": "int main(void) {"
+     },
+     {
+      "id": "l6",
+      "texto": "    struct Alumno a;"
+     },
+     {
+      "id": "l7",
+      "texto": "    a.edad = 20;"
+     },
+     {
+      "id": "l8",
+      "texto": "    printf(\"%d\\n\", a.edad);"
+     },
+     {
+      "id": "l9",
+      "texto": "    return 0;"
+     },
+     {
+      "id": "l10",
+      "texto": "} // fin de main"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8",
+     "l9",
+     "l10"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\nstruct Alumno {\n    int edad;\n}; // fin de la estructura\nint main(void) {\n    struct Alumno a;\n    a.edad = 20;\n    printf(\"%d\\n\", a.edad);\n    return 0;\n} // fin de main",
+    "entrada": "",
+    "salida": "20\n"
+   }
+  },
+  {
+   "codigo": "estructuras-c-06",
+   "tema": "estructuras",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y después `n` alumnos, cada uno con su nombre (sin espacios) y su calificación entera. Imprime el nombre del alumno con la calificación más alta (el primero, si hay empate). Usa una estructura."
+   },
+   "solucion": "#include <stdio.h>\n\nstruct Alumno {\n    char nombre[50];\n    int calificacion;\n};\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    struct Alumno mejor, a;\n    mejor.calificacion = -1;\n    for (int i = 0; i < n; i++) {\n        scanf(\"%49s %d\", a.nombre, &a.calificacion);\n        if (a.calificacion > mejor.calificacion) {\n            mejor = a;\n        }\n    }\n    printf(\"%s\\n\", mejor.nombre);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3\nAna 80\nLuis 95\nEva 70",
+     "salida_esperada": "Luis",
+     "oculto": false
+    },
+    {
+     "entrada": "1\nZoe 10",
+     "salida_esperada": "Zoe",
+     "oculto": false
+    },
+    {
+     "entrada": "2\nAna 90\nEva 90",
+     "salida_esperada": "Ana",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "archivos-c-01",
+   "tema": "archivos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de C abre un archivo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "open_file"
+     },
+     {
+      "id": "b",
+      "texto": "fopen"
+     },
+     {
+      "id": "c",
+      "texto": "fread"
+     },
+     {
+      "id": "d",
+      "texto": "fclose"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "archivos-c-02",
+   "tema": "archivos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué devuelve `fopen` si no puede abrir el archivo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "0 bytes"
+     },
+     {
+      "id": "b",
+      "texto": "`NULL`"
+     },
+     {
+      "id": "c",
+      "texto": "-1"
+     },
+     {
+      "id": "d",
+      "texto": "Termina el programa"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "archivos-c-03",
+   "tema": "archivos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué modo se pasa a `fopen` para abrir un archivo de texto para escritura? Escribe solo la letra."
+   },
+   "clave": {
+    "aceptadas": [
+     "w"
+    ]
+   }
+  },
+  {
+   "codigo": "archivos-c-04",
+   "tema": "archivos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    FILE *f = fopen(\"d.txt\", \"w\");\n    fprintf(f, \"7 8\\n\");\n    fclose(f);\n    int a, b;\n    f = fopen(\"d.txt\", \"r\");\n    fscanf(f, \"%d %d\", &a, &b);\n    fclose(f);\n    printf(\"%d\\n\", a + b);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "15\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    FILE *f = fopen(\"d.txt\", \"w\");\n    fprintf(f, \"7 8\\n\");\n    fclose(f);\n    int a, b;\n    f = fopen(\"d.txt\", \"r\");\n    fscanf(f, \"%d %d\", &a, &b);\n    fclose(f);\n    printf(\"%d\\n\", a + b);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "15\n"
+   }
+  },
+  {
+   "codigo": "archivos-c-05",
+   "tema": "archivos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas: el programa escribe 1, 2 y 3 en un archivo, lo vuelve a abrir y suma lo que lee. Debe imprimir `6`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "FILE *f = fopen(\"n.txt\", \"w\");"
+     },
+     {
+      "id": "l2",
+      "texto": "for (int i = 1; i <= 3; i++) fprintf(f, \"%d\\n\", i);"
+     },
+     {
+      "id": "l3",
+      "texto": "fclose(f);"
+     },
+     {
+      "id": "l4",
+      "texto": "int n, s = 0;"
+     },
+     {
+      "id": "l5",
+      "texto": "FILE *g = fopen(\"n.txt\", \"r\");"
+     },
+     {
+      "id": "l6",
+      "texto": "while (fscanf(g, \"%d\", &n) == 1) s += n;"
+     },
+     {
+      "id": "l7",
+      "texto": "fclose(g);"
+     },
+     {
+      "id": "l8",
+      "texto": "printf(\"%d\\n\", s);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7",
+     "l8"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    FILE *f = fopen(\"n.txt\", \"w\");\n    for (int i = 1; i <= 3; i++) fprintf(f, \"%d\\n\", i);\n    fclose(f);\n    int n, s = 0;\n    FILE *g = fopen(\"n.txt\", \"r\");\n    while (fscanf(g, \"%d\", &n) == 1) s += n;\n    fclose(g);\n    printf(\"%d\\n\", s);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "6\n"
+   }
+  },
+  {
+   "codigo": "archivos-c-06",
+   "tema": "archivos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y `n` enteros del teclado y escríbelos en el archivo `datos.txt`. Después vuelve a abrir ese archivo, lee los números e imprime su suma."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int n, x, suma = 0;\n    scanf(\"%d\", &n);\n    FILE *f = fopen(\"datos.txt\", \"w\");\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &x);\n        fprintf(f, \"%d\\n\", x);\n    }\n    fclose(f);\n    f = fopen(\"datos.txt\", \"r\");\n    while (fscanf(f, \"%d\", &x) == 1) {\n        suma += x;\n    }\n    fclose(f);\n    printf(\"%d\\n\", suma);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3\n1 2 3",
+     "salida_esperada": "6",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n10",
+     "salida_esperada": "10",
+     "oculto": false
+    },
+    {
+     "entrada": "2\n-4 4",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "memoria-dinamica-c-01",
+   "tema": "memoria-dinamica",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué función libera la memoria reservada con `malloc`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "delete"
+     },
+     {
+      "id": "b",
+      "texto": "free"
+     },
+     {
+      "id": "c",
+      "texto": "release"
+     },
+     {
+      "id": "d",
+      "texto": "fclose"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "memoria-dinamica-c-02",
+   "tema": "memoria-dinamica",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué es una fuga de memoria?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Escribir fuera de un arreglo"
+     },
+     {
+      "id": "b",
+      "texto": "Reservar memoria y nunca liberarla"
+     },
+     {
+      "id": "c",
+      "texto": "Leer un archivo vacío"
+     },
+     {
+      "id": "d",
+      "texto": "Usar demasiadas variables locales"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "memoria-dinamica-c-03",
+   "tema": "memoria-dinamica",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de `<stdlib.h>` reserva un bloque de memoria y recibe su tamaño en bytes?"
+   },
+   "clave": {
+    "aceptadas": [
+     "malloc",
+     "malloc()"
+    ]
+   }
+  },
+  {
+   "codigo": "memoria-dinamica-c-04",
+   "tema": "memoria-dinamica",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n\nint main(void) {\n    int *p = (int *) malloc(3 * sizeof(int));\n    for (int i = 0; i < 3; i++) {\n        p[i] = i * i;\n    }\n    printf(\"%d\\n\", p[2]);\n    free(p);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "4\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n#include <stdlib.h>\n\nint main(void) {\n    int *p = (int *) malloc(3 * sizeof(int));\n    for (int i = 0; i < 3; i++) {\n        p[i] = i * i;\n    }\n    printf(\"%d\\n\", p[2]);\n    free(p);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "4\n"
+   }
+  },
+  {
+   "codigo": "memoria-dinamica-c-05",
+   "tema": "memoria-dinamica",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas: reserva un arreglo de 4 enteros, llénalo con el doble de cada índice, imprime el último y libera la memoria. Debe imprimir `6`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int n = 4;"
+     },
+     {
+      "id": "l2",
+      "texto": "int *v = (int *) malloc(n * sizeof(int));"
+     },
+     {
+      "id": "l3",
+      "texto": "for (int i = 0; i < n; i++) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    v[i] = i * 2;"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d\\n\", v[n - 1]);"
+     },
+     {
+      "id": "l7",
+      "texto": "free(v);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n#include <stdlib.h>\n\nint main(void) {\n    int n = 4;\n    int *v = (int *) malloc(n * sizeof(int));\n    for (int i = 0; i < n; i++) {\n        v[i] = i * 2;\n    }\n    printf(\"%d\\n\", v[n - 1]);\n    free(v);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "6\n"
+   }
+  },
+  {
+   "codigo": "memoria-dinamica-c-06",
+   "tema": "memoria-dinamica",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y `n` enteros, guardándolos en un arreglo reservado con `malloc`. Imprime su promedio con 2 decimales y libera la memoria."
+   },
+   "solucion": "#include <stdio.h>\n#include <stdlib.h>\n\nint main(void) {\n    int n;\n    scanf(\"%d\", &n);\n    int *v = (int *) malloc(n * sizeof(int));\n    int suma = 0;\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &v[i]);\n        suma += v[i];\n    }\n    printf(\"%.2f\\n\", (double) suma / n);\n    free(v);\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "3\n1 2 3",
+     "salida_esperada": "2.00",
+     "oculto": false
+    },
+    {
+     "entrada": "2\n1 2",
+     "salida_esperada": "1.50",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n7",
+     "salida_esperada": "7.00",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "busqueda-ordenamiento-c-01",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Este programa hace **una** pasada del ordenamiento de burbuja. ¿Qué imprime exactamente?\n\n```c\n#include <stdio.h>\n\nint main(void) {\n    int v[4] = {4, 3, 2, 1};\n    for (int i = 0; i < 3; i++) {\n        if (v[i] > v[i + 1]) {\n            int t = v[i];\n            v[i] = v[i + 1];\n            v[i + 1] = t;\n        }\n    }\n    printf(\"%d%d%d%d\\n\", v[0], v[1], v[2], v[3]);\n    return 0;\n}\n```"
+   },
+   "clave": {
+    "salida": "3214\n"
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int v[4] = {4, 3, 2, 1};\n    for (int i = 0; i < 3; i++) {\n        if (v[i] > v[i + 1]) {\n            int t = v[i];\n            v[i] = v[i + 1];\n            v[i + 1] = t;\n        }\n    }\n    printf(\"%d%d%d%d\\n\", v[0], v[1], v[2], v[3]);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "3214\n"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-c-02",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas de una búsqueda lineal: imprime la posición del número buscado. Debe imprimir `2`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "int v[5] = {8, 3, 5, 1, 9};"
+     },
+     {
+      "id": "l2",
+      "texto": "int buscado = 5, pos = -1;"
+     },
+     {
+      "id": "l3",
+      "texto": "for (int i = 0; i < 5; i++) {"
+     },
+     {
+      "id": "l4",
+      "texto": "    if (v[i] == buscado) pos = i;"
+     },
+     {
+      "id": "l5",
+      "texto": "}"
+     },
+     {
+      "id": "l6",
+      "texto": "printf(\"%d\\n\", pos);"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "#include <stdio.h>\n\nint main(void) {\n    int v[5] = {8, 3, 5, 1, 9};\n    int buscado = 5, pos = -1;\n    for (int i = 0; i < 5; i++) {\n        if (v[i] == buscado) pos = i;\n    }\n    printf(\"%d\\n\", pos);\n    return 0;\n}",
+    "entrada": "",
+    "salida": "2\n"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-c-03",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "c",
+    "cpp"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y `n` enteros, ordénalos de menor a mayor e imprímelos separados por un espacio."
+   },
+   "solucion": "#include <stdio.h>\n\nint main(void) {\n    int n, v[1000];\n    scanf(\"%d\", &n);\n    for (int i = 0; i < n; i++) {\n        scanf(\"%d\", &v[i]);\n    }\n    for (int i = 0; i < n - 1; i++) {\n        for (int j = 0; j < n - 1 - i; j++) {\n            if (v[j] > v[j + 1]) {\n                int t = v[j];\n                v[j] = v[j + 1];\n                v[j + 1] = t;\n            }\n        }\n    }\n    for (int i = 0; i < n; i++) {\n        printf(\"%d\", v[i]);\n        if (i < n - 1) {\n            printf(\" \");\n        }\n    }\n    printf(\"\\n\");\n    return 0;\n}",
+   "casos_prueba": [
+    {
+     "entrada": "4\n3 1 4 2",
+     "salida_esperada": "1 2 3 4",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n5",
+     "salida_esperada": "5",
+     "oculto": false
+    },
+    {
+     "entrada": "3\n9 9 1",
+     "salida_esperada": "1 9 9",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "algoritmos-py-01",
+   "tema": "algoritmos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nprecio = 12\ncantidad = 3\ntotal = precio * cantidad\nprint(total)\n```"
+   },
+   "clave": {
+    "salida": "36\n"
+   },
+   "verificacion": {
+    "programa": "precio = 12\ncantidad = 3\ntotal = precio * cantidad\nprint(total)",
+    "entrada": "",
+    "salida": "36\n"
+   }
+  },
+  {
+   "codigo": "algoritmos-py-02",
+   "tema": "algoritmos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena los pasos del programa que calcula el total a pagar y lo imprime: primero los datos, luego el proceso y al final la salida.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "precio = 20"
+     },
+     {
+      "id": "l2",
+      "texto": "cantidad = 4"
+     },
+     {
+      "id": "l3",
+      "texto": "total = precio * cantidad"
+     },
+     {
+      "id": "l4",
+      "texto": "print(total)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "precio = 20\ncantidad = 4\ntotal = precio * cantidad\nprint(total)",
+    "entrada": "",
+    "salida": "80\n"
+   }
+  },
+  {
+   "codigo": "algoritmos-py-03",
+   "tema": "algoritmos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Una tienda cobra el precio por la cantidad comprada. Lee dos enteros en una línea, `precio` y `cantidad`, e imprime el total a pagar."
+   },
+   "solucion": "precio, cantidad = map(int, input().split())\nprint(precio * cantidad)",
+   "casos_prueba": [
+    {
+     "entrada": "20 4",
+     "salida_esperada": "80",
+     "oculto": false
+    },
+    {
+     "entrada": "7 1",
+     "salida_esperada": "7",
+     "oculto": false
+    },
+    {
+     "entrada": "0 10",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "estructura-programa-py-01",
+   "tema": "estructura-programa",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de Python muestra un mensaje en pantalla?"
+   },
+   "clave": {
+    "aceptadas": [
+     "print",
+     "print()"
+    ]
+   }
+  },
+  {
+   "codigo": "estructura-programa-py-02",
+   "tema": "estructura-programa",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "En Python, ¿qué indica la sangría (los espacios al inicio de una línea)?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Nada: es solo estética"
+     },
+     {
+      "id": "b",
+      "texto": "Qué instrucciones forman parte de un mismo bloque"
+     },
+     {
+      "id": "c",
+      "texto": "El tipo de una variable"
+     },
+     {
+      "id": "d",
+      "texto": "Un comentario"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "estructura-programa-py-03",
+   "tema": "estructura-programa",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nprint(\"Hola\")\nprint(\"mundo\")\n```"
+   },
+   "clave": {
+    "salida": "Hola\nmundo\n"
+   },
+   "verificacion": {
+    "programa": "print(\"Hola\")\nprint(\"mundo\")",
+    "entrada": "",
+    "salida": "Hola\nmundo\n"
+   }
+  },
+  {
+   "codigo": "estructura-programa-py-04",
+   "tema": "estructura-programa",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para que el programa imprima `Inicio`, después la suma y al final `Fin`. Debe imprimir `Inicio`, `5` y `Fin`, cada uno en su renglón.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "print(\"Inicio\")"
+     },
+     {
+      "id": "l2",
+      "texto": "suma = 2 + 3"
+     },
+     {
+      "id": "l3",
+      "texto": "print(suma)"
+     },
+     {
+      "id": "l4",
+      "texto": "print(\"Fin\")"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "print(\"Inicio\")\nsuma = 2 + 3\nprint(suma)\nprint(\"Fin\")",
+    "entrada": "",
+    "salida": "Inicio\n5\nFin\n"
+   }
+  },
+  {
+   "codigo": "estructura-programa-py-05",
+   "tema": "estructura-programa",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Escribe un programa que imprima exactamente `Hola, mundo`."
+   },
+   "solucion": "print(\"Hola, mundo\")",
+   "casos_prueba": [
+    {
+     "entrada": "",
+     "salida_esperada": "Hola, mundo",
+     "oculto": false
+    }
+   ]
+  },
+  {
+   "codigo": "tipos-variables-py-01",
+   "tema": "tipos-variables",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué tipo de Python tiene el valor `3.14`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "int"
+     },
+     {
+      "id": "b",
+      "texto": "float"
+     },
+     {
+      "id": "c",
+      "texto": "str"
+     },
+     {
+      "id": "d",
+      "texto": "bool"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "tipos-variables-py-02",
+   "tema": "tipos-variables",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de Python devuelve el tipo de un valor?"
+   },
+   "clave": {
+    "aceptadas": [
+     "type",
+     "type()"
+    ]
+   }
+  },
+  {
+   "codigo": "tipos-variables-py-03",
+   "tema": "tipos-variables",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\na = 5\nb = a\na = 9\nprint(a, b)\n```"
+   },
+   "clave": {
+    "salida": "9 5\n"
+   },
+   "verificacion": {
+    "programa": "a = 5\nb = a\na = 9\nprint(a, b)",
+    "entrada": "",
+    "salida": "9 5\n"
+   }
+  },
+  {
+   "codigo": "tipos-variables-py-04",
+   "tema": "tipos-variables",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para intercambiar los valores de `a` y `b` usando una variable auxiliar. Debe imprimir `2 1`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "a = 1"
+     },
+     {
+      "id": "l2",
+      "texto": "b = 2"
+     },
+     {
+      "id": "l3",
+      "texto": "aux = a"
+     },
+     {
+      "id": "l4",
+      "texto": "a = b"
+     },
+     {
+      "id": "l5",
+      "texto": "b = aux"
+     },
+     {
+      "id": "l6",
+      "texto": "print(a, b)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "a = 1\nb = 2\naux = a\na = b\nb = aux\nprint(a, b)",
+    "entrada": "",
+    "salida": "2 1\n"
+   }
+  },
+  {
+   "codigo": "tipos-variables-py-05",
+   "tema": "tipos-variables",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee el ancho y el alto de un rectángulo (dos enteros en una línea) e imprime su área."
+   },
+   "solucion": "ancho, alto = map(int, input().split())\narea = ancho * alto\nprint(area)",
+   "casos_prueba": [
+    {
+     "entrada": "3 4",
+     "salida_esperada": "12",
+     "oculto": false
+    },
+    {
+     "entrada": "10 2",
+     "salida_esperada": "20",
+     "oculto": false
+    },
+    {
+     "entrada": "0 5",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "entrada-salida-py-01",
+   "tema": "entrada-salida",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿De qué tipo es siempre lo que devuelve `input()`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "int"
+     },
+     {
+      "id": "b",
+      "texto": "float"
+     },
+     {
+      "id": "c",
+      "texto": "str"
+     },
+     {
+      "id": "d",
+      "texto": "Depende de lo que se escriba"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "entrada-salida-py-02",
+   "tema": "entrada-salida",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué hace falta para sumar 1 a un número leído con `n = input()`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Nada: `n + 1` funciona"
+     },
+     {
+      "id": "b",
+      "texto": "Convertirlo primero con `int(n)`"
+     },
+     {
+      "id": "c",
+      "texto": "Escribir `input(int)`"
+     },
+     {
+      "id": "d",
+      "texto": "Declarar `n` como entero antes"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "entrada-salida-py-03",
+   "tema": "entrada-salida",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de Python lee una línea del teclado?"
+   },
+   "clave": {
+    "aceptadas": [
+     "input",
+     "input()"
+    ]
+   }
+  },
+  {
+   "codigo": "entrada-salida-py-04",
+   "tema": "entrada-salida",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nprint(3, 4, sep=\"-\")\nprint(f\"{1.5:.2f}\")\n```"
+   },
+   "clave": {
+    "salida": "3-4\n1.50\n"
+   },
+   "verificacion": {
+    "programa": "print(3, 4, sep=\"-\")\nprint(f\"{1.5:.2f}\")",
+    "entrada": "",
+    "salida": "3-4\n1.50\n"
+   }
+  },
+  {
+   "codigo": "entrada-salida-py-05",
+   "tema": "entrada-salida",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas: el programa lee un entero e imprime su doble. Con la entrada `21` debe imprimir `42`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "texto = input()"
+     },
+     {
+      "id": "l2",
+      "texto": "n = int(texto)"
+     },
+     {
+      "id": "l3",
+      "texto": "doble = n * 2"
+     },
+     {
+      "id": "l4",
+      "texto": "print(doble)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "texto = input()\nn = int(texto)\ndoble = n * 2\nprint(doble)",
+    "entrada": "21",
+    "salida": "42\n"
+   }
+  },
+  {
+   "codigo": "entrada-salida-py-06",
+   "tema": "entrada-salida",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee una hora y un minuto (dos enteros en una línea) e imprímelos con el formato `HH:MM`, siempre con dos dígitos."
+   },
+   "solucion": "h, m = map(int, input().split())\nprint(f\"{h:02d}:{m:02d}\")",
+   "casos_prueba": [
+    {
+     "entrada": "7 5",
+     "salida_esperada": "07:05",
+     "oculto": false
+    },
+    {
+     "entrada": "12 30",
+     "salida_esperada": "12:30",
+     "oculto": false
+    },
+    {
+     "entrada": "0 0",
+     "salida_esperada": "00:00",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "operadores-expresiones-py-01",
+   "tema": "operadores-expresiones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "En Python 3, ¿cuánto vale `7 / 2`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "3"
+     },
+     {
+      "id": "b",
+      "texto": "3.5"
+     },
+     {
+      "id": "c",
+      "texto": "4"
+     },
+     {
+      "id": "d",
+      "texto": "1"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-py-02",
+   "tema": "operadores-expresiones",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué operador de Python hace la división entera (sin decimales)? Escribe solo el símbolo."
+   },
+   "clave": {
+    "aceptadas": [
+     "//"
+    ]
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-py-03",
+   "tema": "operadores-expresiones",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\na = 17\nprint(a // 5, a % 5)\nprint(a / 5)\n```"
+   },
+   "clave": {
+    "salida": "3 2\n3.4\n"
+   },
+   "verificacion": {
+    "programa": "a = 17\nprint(a // 5, a % 5)\nprint(a / 5)",
+    "entrada": "",
+    "salida": "3 2\n3.4\n"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-py-04",
+   "tema": "operadores-expresiones",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para calcular el promedio de tres calificaciones. Debe imprimir `8.33`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "a = 7"
+     },
+     {
+      "id": "l2",
+      "texto": "b = 8"
+     },
+     {
+      "id": "l3",
+      "texto": "c = 10"
+     },
+     {
+      "id": "l4",
+      "texto": "suma = a + b + c"
+     },
+     {
+      "id": "l5",
+      "texto": "promedio = suma / 3"
+     },
+     {
+      "id": "l6",
+      "texto": "print(f\"{promedio:.2f}\")"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "a = 7\nb = 8\nc = 10\nsuma = a + b + c\npromedio = suma / 3\nprint(f\"{promedio:.2f}\")",
+    "entrada": "",
+    "salida": "8.33\n"
+   }
+  },
+  {
+   "codigo": "operadores-expresiones-py-05",
+   "tema": "operadores-expresiones",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee una cantidad de segundos (entero) e imprime cuántas horas, minutos y segundos son, separados por un espacio."
+   },
+   "solucion": "s = int(input())\nprint(s // 3600, s % 3600 // 60, s % 60)",
+   "casos_prueba": [
+    {
+     "entrada": "3661",
+     "salida_esperada": "1 1 1",
+     "oculto": false
+    },
+    {
+     "entrada": "59",
+     "salida_esperada": "0 0 59",
+     "oculto": false
+    },
+    {
+     "entrada": "7200",
+     "salida_esperada": "2 0 0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "condicionales-py-01",
+   "tema": "condicionales",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué palabra reservada de Python significa «si no, si…» en una cadena de condiciones?"
+   },
+   "clave": {
+    "aceptadas": [
+     "elif"
+    ]
+   }
+  },
+  {
+   "codigo": "condicionales-py-02",
+   "tema": "condicionales",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué diferencia hay entre `=` y `==` en Python?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Ninguna"
+     },
+     {
+      "id": "b",
+      "texto": "`=` asigna un valor y `==` compara dos valores"
+     },
+     {
+      "id": "c",
+      "texto": "`=` compara y `==` asigna"
+     },
+     {
+      "id": "d",
+      "texto": "`==` solo sirve con texto"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "condicionales-py-03",
+   "tema": "condicionales",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nn = 15\nif n % 3 == 0 and n % 5 == 0:\n    print(\"ambos\")\nelif n % 3 == 0:\n    print(\"tres\")\nelse:\n    print(\"otro\")\n```"
+   },
+   "clave": {
+    "salida": "ambos\n"
+   },
+   "verificacion": {
+    "programa": "n = 15\nif n % 3 == 0 and n % 5 == 0:\n    print(\"ambos\")\nelif n % 3 == 0:\n    print(\"tres\")\nelse:\n    print(\"otro\")",
+    "entrada": "",
+    "salida": "ambos\n"
+   }
+  },
+  {
+   "codigo": "condicionales-py-04",
+   "tema": "condicionales",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para imprimir el mayor de dos números. Debe imprimir `8`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "a = 8"
+     },
+     {
+      "id": "l2",
+      "texto": "b = 3"
+     },
+     {
+      "id": "l3",
+      "texto": "if a > b:"
+     },
+     {
+      "id": "l4",
+      "texto": "    print(a)"
+     },
+     {
+      "id": "l5",
+      "texto": "else:"
+     },
+     {
+      "id": "l6",
+      "texto": "    print(b)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "a = 8\nb = 3\nif a > b:\n    print(a)\nelse:\n    print(b)",
+    "entrada": "",
+    "salida": "8\n"
+   }
+  },
+  {
+   "codigo": "condicionales-py-05",
+   "tema": "condicionales",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee un año e imprime `BISIESTO` si es bisiesto o `NORMAL` si no. Un año es bisiesto si es múltiplo de 4, salvo los múltiplos de 100 que no sean múltiplos de 400."
+   },
+   "solucion": "a = int(input())\nif (a % 4 == 0 and a % 100 != 0) or a % 400 == 0:\n    print(\"BISIESTO\")\nelse:\n    print(\"NORMAL\")",
+   "casos_prueba": [
+    {
+     "entrada": "2024",
+     "salida_esperada": "BISIESTO",
+     "oculto": false
+    },
+    {
+     "entrada": "2023",
+     "salida_esperada": "NORMAL",
+     "oculto": false
+    },
+    {
+     "entrada": "1900",
+     "salida_esperada": "NORMAL",
+     "oculto": false
+    },
+    {
+     "entrada": "2000",
+     "salida_esperada": "BISIESTO",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "ciclos-py-01",
+   "tema": "ciclos",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Cuál es el último número que genera `range(1, 5)`? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "4"
+    ]
+   }
+  },
+  {
+   "codigo": "ciclos-py-02",
+   "tema": "ciclos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\ns = 0\nfor i in range(1, 5):\n    s += i\nprint(s)\n```"
+   },
+   "clave": {
+    "salida": "10\n"
+   },
+   "verificacion": {
+    "programa": "s = 0\nfor i in range(1, 5):\n    s += i\nprint(s)",
+    "entrada": "",
+    "salida": "10\n"
+   }
+  },
+  {
+   "codigo": "ciclos-py-03",
+   "tema": "ciclos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para sumar los números pares del 2 al 10. Debe imprimir `30`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "suma = 0"
+     },
+     {
+      "id": "l2",
+      "texto": "for i in range(2, 11, 2):"
+     },
+     {
+      "id": "l3",
+      "texto": "    suma += i"
+     },
+     {
+      "id": "l4",
+      "texto": "print(suma)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "suma = 0\nfor i in range(2, 11, 2):\n    suma += i\nprint(suma)",
+    "entrada": "",
+    "salida": "30\n"
+   }
+  },
+  {
+   "codigo": "ciclos-py-04",
+   "tema": "ciclos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee enteros positivos, uno por línea, hasta encontrar un `0` (que no cuenta). Imprime cuántos números leíste y su suma, separados por un espacio."
+   },
+   "solucion": "cuantos = 0\nsuma = 0\nn = int(input())\nwhile n != 0:\n    cuantos += 1\n    suma += n\n    n = int(input())\nprint(cuantos, suma)",
+   "casos_prueba": [
+    {
+     "entrada": "3\n5\n2\n0",
+     "salida_esperada": "3 10",
+     "oculto": false
+    },
+    {
+     "entrada": "0",
+     "salida_esperada": "0 0",
+     "oculto": false
+    },
+    {
+     "entrada": "7\n0",
+     "salida_esperada": "1 7",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "ciclos-anidados-py-01",
+   "tema": "ciclos-anidados",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nfor i in range(1, 3):\n    for j in range(1, 4):\n        print(i * j, end=\"\")\n    print()\n```"
+   },
+   "clave": {
+    "salida": "123\n246\n"
+   },
+   "verificacion": {
+    "programa": "for i in range(1, 3):\n    for j in range(1, 4):\n        print(i * j, end=\"\")\n    print()",
+    "entrada": "",
+    "salida": "123\n246\n"
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-py-02",
+   "tema": "ciclos-anidados",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para dibujar este triángulo:\n\n```\n*\n**\n***\n```",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "for i in range(1, 4):"
+     },
+     {
+      "id": "l2",
+      "texto": "    for j in range(i):"
+     },
+     {
+      "id": "l3",
+      "texto": "        print(\"*\", end=\"\")"
+     },
+     {
+      "id": "l4",
+      "texto": "    print()"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "for i in range(1, 4):\n    for j in range(i):\n        print(\"*\", end=\"\")\n    print()",
+    "entrada": "",
+    "salida": "*\n**\n***\n"
+   }
+  },
+  {
+   "codigo": "ciclos-anidados-py-03",
+   "tema": "ciclos-anidados",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee un entero `n` e imprime la tabla de multiplicar de `n` por `n`: `n` filas con los valores separados por un espacio."
+   },
+   "solucion": "n = int(input())\nfor i in range(1, n + 1):\n    fila = []\n    for j in range(1, n + 1):\n        fila.append(str(i * j))\n    print(\" \".join(fila))",
+   "casos_prueba": [
+    {
+     "entrada": "2",
+     "salida_esperada": "1 2\n2 4",
+     "oculto": false
+    },
+    {
+     "entrada": "3",
+     "salida_esperada": "1 2 3\n2 4 6\n3 6 9",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "1",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "funciones-py-01",
+   "tema": "funciones",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué palabra reservada de Python define una función?"
+   },
+   "clave": {
+    "aceptadas": [
+     "def"
+    ]
+   }
+  },
+  {
+   "codigo": "funciones-py-02",
+   "tema": "funciones",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué devuelve una función de Python que termina sin ejecutar `return`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "0"
+     },
+     {
+      "id": "b",
+      "texto": "`None`"
+     },
+     {
+      "id": "c",
+      "texto": "Una cadena vacía"
+     },
+     {
+      "id": "d",
+      "texto": "Es un error"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "funciones-py-03",
+   "tema": "funciones",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\ndef doble(x):\n    x = x * 2\n    return x\n\na = 4\nb = doble(a)\nprint(a, b)\n```"
+   },
+   "clave": {
+    "salida": "4 8\n"
+   },
+   "verificacion": {
+    "programa": "def doble(x):\n    x = x * 2\n    return x\n\na = 4\nb = doble(a)\nprint(a, b)",
+    "entrada": "",
+    "salida": "4 8\n"
+   }
+  },
+  {
+   "codigo": "funciones-py-04",
+   "tema": "funciones",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para definir `cuadrado` y usarla. Debe imprimir `25`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "def cuadrado(x):"
+     },
+     {
+      "id": "l2",
+      "texto": "    r = x * x"
+     },
+     {
+      "id": "l3",
+      "texto": "    return r"
+     },
+     {
+      "id": "l4",
+      "texto": "n = 5"
+     },
+     {
+      "id": "l5",
+      "texto": "print(cuadrado(n))"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5"
+    ]
+   },
+   "verificacion": {
+    "programa": "def cuadrado(x):\n    r = x * x\n    return r\nn = 5\nprint(cuadrado(n))",
+    "entrada": "",
+    "salida": "25\n"
+   }
+  },
+  {
+   "codigo": "funciones-py-05",
+   "tema": "funciones",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Escribe la función `es_primo(n)` y úsala: lee un entero e imprime `SI` si es primo o `NO` si no lo es."
+   },
+   "solucion": "def es_primo(n):\n    if n < 2:\n        return False\n    d = 2\n    while d * d <= n:\n        if n % d == 0:\n            return False\n        d += 1\n    return True\n\n\nn = int(input())\nprint(\"SI\" if es_primo(n) else \"NO\")",
+   "casos_prueba": [
+    {
+     "entrada": "7",
+     "salida_esperada": "SI",
+     "oculto": false
+    },
+    {
+     "entrada": "9",
+     "salida_esperada": "NO",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "NO",
+     "oculto": false
+    },
+    {
+     "entrada": "2",
+     "salida_esperada": "SI",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "recursion-py-01",
+   "tema": "recursion",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\ndef f(n):\n    if n == 0:\n        return\n    f(n - 1)\n    print(n)\n\nf(3)\n```"
+   },
+   "clave": {
+    "salida": "1\n2\n3\n"
+   },
+   "verificacion": {
+    "programa": "def f(n):\n    if n == 0:\n        return\n    f(n - 1)\n    print(n)\n\nf(3)",
+    "entrada": "",
+    "salida": "1\n2\n3\n"
+   }
+  },
+  {
+   "codigo": "recursion-py-02",
+   "tema": "recursion",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas del factorial recursivo. Debe imprimir `120`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "def fact(n):"
+     },
+     {
+      "id": "l2",
+      "texto": "    if n <= 1:"
+     },
+     {
+      "id": "l3",
+      "texto": "        return 1"
+     },
+     {
+      "id": "l4",
+      "texto": "    return n * fact(n - 1)"
+     },
+     {
+      "id": "l5",
+      "texto": "print(fact(5))"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5"
+    ]
+   },
+   "verificacion": {
+    "programa": "def fact(n):\n    if n <= 1:\n        return 1\n    return n * fact(n - 1)\nprint(fact(5))",
+    "entrada": "",
+    "salida": "120\n"
+   }
+  },
+  {
+   "codigo": "recursion-py-03",
+   "tema": "recursion",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Escribe una función recursiva para Fibonacci, con `F(0) = 0` y `F(1) = 1`. Lee `n` e imprime `F(n)`."
+   },
+   "solucion": "def fib(n):\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\n\nprint(fib(int(input())))",
+   "casos_prueba": [
+    {
+     "entrada": "0",
+     "salida_esperada": "0",
+     "oculto": false
+    },
+    {
+     "entrada": "1",
+     "salida_esperada": "1",
+     "oculto": false
+    },
+    {
+     "entrada": "10",
+     "salida_esperada": "55",
+     "oculto": false
+    },
+    {
+     "entrada": "7",
+     "salida_esperada": "13",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "arreglos-py-01",
+   "tema": "arreglos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de Python devuelve el número de elementos de una lista?"
+   },
+   "clave": {
+    "aceptadas": [
+     "len",
+     "len()"
+    ]
+   }
+  },
+  {
+   "codigo": "arreglos-py-02",
+   "tema": "arreglos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué devuelve `v[-1]` si `v = [3, 1, 4]`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "3"
+     },
+     {
+      "id": "b",
+      "texto": "4"
+     },
+     {
+      "id": "c",
+      "texto": "Un error"
+     },
+     {
+      "id": "d",
+      "texto": "`None`"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "arreglos-py-03",
+   "tema": "arreglos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nv = [3, 1, 4, 1]\ns = 0\nfor x in v:\n    s += x\nprint(s, v[2])\n```"
+   },
+   "clave": {
+    "salida": "9 4\n"
+   },
+   "verificacion": {
+    "programa": "v = [3, 1, 4, 1]\ns = 0\nfor x in v:\n    s += x\nprint(s, v[2])",
+    "entrada": "",
+    "salida": "9 4\n"
+   }
+  },
+  {
+   "codigo": "arreglos-py-04",
+   "tema": "arreglos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para encontrar el mayor elemento de la lista sin usar `max`. Debe imprimir `9`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "v = [4, 9, 2, 7, 5]"
+     },
+     {
+      "id": "l2",
+      "texto": "mayor = v[0]"
+     },
+     {
+      "id": "l3",
+      "texto": "for x in v:"
+     },
+     {
+      "id": "l4",
+      "texto": "    if x > mayor:"
+     },
+     {
+      "id": "l5",
+      "texto": "        mayor = x"
+     },
+     {
+      "id": "l6",
+      "texto": "print(mayor)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "v = [4, 9, 2, 7, 5]\nmayor = v[0]\nfor x in v:\n    if x > mayor:\n        mayor = x\nprint(mayor)",
+    "entrada": "",
+    "salida": "9\n"
+   }
+  },
+  {
+   "codigo": "arreglos-py-05",
+   "tema": "arreglos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee un entero `n` y, en la línea siguiente, `n` enteros. Imprímelos en orden inverso, separados por un espacio."
+   },
+   "solucion": "n = int(input())\nv = input().split()\nprint(\" \".join(reversed(v[:n])))",
+   "casos_prueba": [
+    {
+     "entrada": "3\n1 2 3",
+     "salida_esperada": "3 2 1",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n9",
+     "salida_esperada": "9",
+     "oculto": false
+    },
+    {
+     "entrada": "4\n5 6 7 8",
+     "salida_esperada": "8 7 6 5",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "matrices-py-01",
+   "tema": "matrices",
+   "tipo": "respuesta_corta",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Con `m = [[1, 2, 3], [4, 5, 6]]`, ¿cuánto vale `m[1][0]`? Escribe solo el número."
+   },
+   "clave": {
+    "aceptadas": [
+     "4"
+    ]
+   }
+  },
+  {
+   "codigo": "matrices-py-02",
+   "tema": "matrices",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nm = [[1, 2, 3], [4, 5, 6]]\nprint(len(m), len(m[0]))\nprint(m[0][2])\n```"
+   },
+   "clave": {
+    "salida": "2 3\n3\n"
+   },
+   "verificacion": {
+    "programa": "m = [[1, 2, 3], [4, 5, 6]]\nprint(len(m), len(m[0]))\nprint(m[0][2])",
+    "entrada": "",
+    "salida": "2 3\n3\n"
+   }
+  },
+  {
+   "codigo": "matrices-py-03",
+   "tema": "matrices",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para sumar la diagonal principal de la matriz. Debe imprimir `15`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]"
+     },
+     {
+      "id": "l2",
+      "texto": "suma = 0"
+     },
+     {
+      "id": "l3",
+      "texto": "for i in range(3):"
+     },
+     {
+      "id": "l4",
+      "texto": "    suma += m[i][i]"
+     },
+     {
+      "id": "l5",
+      "texto": "print(suma)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5"
+    ]
+   },
+   "verificacion": {
+    "programa": "m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nsuma = 0\nfor i in range(3):\n    suma += m[i][i]\nprint(suma)",
+    "entrada": "",
+    "salida": "15\n"
+   }
+  },
+  {
+   "codigo": "matrices-py-04",
+   "tema": "matrices",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee `f` y `c` en una línea y después `f` líneas con `c` enteros cada una. Imprime la suma de cada fila, una por renglón."
+   },
+   "solucion": "f, c = map(int, input().split())\nfor _ in range(f):\n    fila = map(int, input().split())\n    print(sum(fila))",
+   "casos_prueba": [
+    {
+     "entrada": "2 2\n1 2\n3 4",
+     "salida_esperada": "3\n7",
+     "oculto": false
+    },
+    {
+     "entrada": "1 3\n1 1 1",
+     "salida_esperada": "3",
+     "oculto": false
+    },
+    {
+     "entrada": "3 1\n5\n6\n7",
+     "salida_esperada": "5\n6\n7",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "cadenas-py-01",
+   "tema": "cadenas",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué significa que las cadenas de Python sean inmutables?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Que no se pueden imprimir"
+     },
+     {
+      "id": "b",
+      "texto": "Que no se puede cambiar un carácter en su lugar: se crea otra cadena"
+     },
+     {
+      "id": "c",
+      "texto": "Que solo aceptan letras"
+     },
+     {
+      "id": "d",
+      "texto": "Que no se pueden comparar"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "cadenas-py-02",
+   "tema": "cadenas",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué devuelve `\"hola\"[1:3]`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "`ho`"
+     },
+     {
+      "id": "b",
+      "texto": "`ol`"
+     },
+     {
+      "id": "c",
+      "texto": "`ola`"
+     },
+     {
+      "id": "d",
+      "texto": "`hol`"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "cadenas-py-03",
+   "tema": "cadenas",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué método de cadena convierte todo el texto a mayúsculas?"
+   },
+   "clave": {
+    "aceptadas": [
+     "upper",
+     "upper()",
+     ".upper()"
+    ]
+   }
+  },
+  {
+   "codigo": "cadenas-py-04",
+   "tema": "cadenas",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\ns = \"Hola\"\nprint(len(s), s[1])\n```"
+   },
+   "clave": {
+    "salida": "4 o\n"
+   },
+   "verificacion": {
+    "programa": "s = \"Hola\"\nprint(len(s), s[1])",
+    "entrada": "",
+    "salida": "4 o\n"
+   }
+  },
+  {
+   "codigo": "cadenas-py-05",
+   "tema": "cadenas",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para contar cuántas letras `a` tiene la palabra sin usar `count`. Debe imprimir `3`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "s = \"banana\""
+     },
+     {
+      "id": "l2",
+      "texto": "n = 0"
+     },
+     {
+      "id": "l3",
+      "texto": "for letra in s:"
+     },
+     {
+      "id": "l4",
+      "texto": "    if letra == \"a\":"
+     },
+     {
+      "id": "l5",
+      "texto": "        n += 1"
+     },
+     {
+      "id": "l6",
+      "texto": "print(n)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6"
+    ]
+   },
+   "verificacion": {
+    "programa": "s = \"banana\"\nn = 0\nfor letra in s:\n    if letra == \"a\":\n        n += 1\nprint(n)",
+    "entrada": "",
+    "salida": "3\n"
+   }
+  },
+  {
+   "codigo": "cadenas-py-06",
+   "tema": "cadenas",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee una palabra e imprímela al revés."
+   },
+   "solucion": "s = input().strip()\nprint(s[::-1])",
+   "casos_prueba": [
+    {
+     "entrada": "hola",
+     "salida_esperada": "aloh",
+     "oculto": false
+    },
+    {
+     "entrada": "a",
+     "salida_esperada": "a",
+     "oculto": false
+    },
+    {
+     "entrada": "abcde",
+     "salida_esperada": "edcba",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "estructuras-py-01",
+   "tema": "estructuras",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "En Python, ¿qué estructura guarda datos como pares de clave y valor?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "list"
+     },
+     {
+      "id": "b",
+      "texto": "tuple"
+     },
+     {
+      "id": "c",
+      "texto": "dict"
+     },
+     {
+      "id": "d",
+      "texto": "range"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "c"
+   }
+  },
+  {
+   "codigo": "estructuras-py-02",
+   "tema": "estructuras",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Después de `a = {\"x\": 1}`, `b = a` y `b[\"x\"] = 9`, ¿cuánto vale `a[\"x\"]`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "1"
+     },
+     {
+      "id": "b",
+      "texto": "9"
+     },
+     {
+      "id": "c",
+      "texto": "Un error"
+     },
+     {
+      "id": "d",
+      "texto": "`None`"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "estructuras-py-03",
+   "tema": "estructuras",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Dado `p = {\"edad\": 20}`, ¿qué expresión obtiene la edad? Escribe la expresión sin espacios."
+   },
+   "clave": {
+    "aceptadas": [
+     "p[\"edad\"]",
+     "p['edad']",
+     "p.get(\"edad\")",
+     "p.get('edad')"
+    ]
+   }
+  },
+  {
+   "codigo": "estructuras-py-04",
+   "tema": "estructuras",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\np = {\"x\": 2, \"y\": 3}\np[\"x\"] = p[\"x\"] * 2\nprint(p[\"x\"], p[\"y\"])\n```"
+   },
+   "clave": {
+    "salida": "4 3\n"
+   },
+   "verificacion": {
+    "programa": "p = {\"x\": 2, \"y\": 3}\np[\"x\"] = p[\"x\"] * 2\nprint(p[\"x\"], p[\"y\"])",
+    "entrada": "",
+    "salida": "4 3\n"
+   }
+  },
+  {
+   "codigo": "estructuras-py-05",
+   "tema": "estructuras",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas para crear el registro de un alumno y usar su campo. Debe imprimir `20`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "alumno = {}"
+     },
+     {
+      "id": "l2",
+      "texto": "alumno[\"nombre\"] = \"Ana\""
+     },
+     {
+      "id": "l3",
+      "texto": "alumno[\"edad\"] = 20"
+     },
+     {
+      "id": "l4",
+      "texto": "print(alumno[\"edad\"])"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4"
+    ]
+   },
+   "verificacion": {
+    "programa": "alumno = {}\nalumno[\"nombre\"] = \"Ana\"\nalumno[\"edad\"] = 20\nprint(alumno[\"edad\"])",
+    "entrada": "",
+    "salida": "20\n"
+   }
+  },
+  {
+   "codigo": "estructuras-py-06",
+   "tema": "estructuras",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y después `n` líneas, cada una con un nombre (sin espacios) y una calificación entera. Imprime el nombre del alumno con la calificación más alta (el primero, si hay empate). Guarda cada alumno en un diccionario."
+   },
+   "solucion": "n = int(input())\nmejor = None\nfor _ in range(n):\n    nombre, calificacion = input().split()\n    alumno = {\"nombre\": nombre, \"calificacion\": int(calificacion)}\n    if mejor is None or alumno[\"calificacion\"] > mejor[\"calificacion\"]:\n        mejor = alumno\nprint(mejor[\"nombre\"])",
+   "casos_prueba": [
+    {
+     "entrada": "3\nAna 80\nLuis 95\nEva 70",
+     "salida_esperada": "Luis",
+     "oculto": false
+    },
+    {
+     "entrada": "1\nZoe 10",
+     "salida_esperada": "Zoe",
+     "oculto": false
+    },
+    {
+     "entrada": "2\nAna 90\nEva 90",
+     "salida_esperada": "Ana",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "archivos-py-01",
+   "tema": "archivos",
+   "tipo": "opcion_multiple",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué función de Python abre un archivo?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "file"
+     },
+     {
+      "id": "b",
+      "texto": "open"
+     },
+     {
+      "id": "c",
+      "texto": "read"
+     },
+     {
+      "id": "d",
+      "texto": "load"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "archivos-py-02",
+   "tema": "archivos",
+   "tipo": "opcion_multiple",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué ventaja tiene abrir un archivo con `with open(...) as f:`?",
+    "opciones": [
+     {
+      "id": "a",
+      "texto": "Lo lee más rápido"
+     },
+     {
+      "id": "b",
+      "texto": "Se cierra solo al terminar el bloque, incluso si ocurre un error"
+     },
+     {
+      "id": "c",
+      "texto": "Lo convierte en una lista"
+     },
+     {
+      "id": "d",
+      "texto": "Evita tener que indicar el nombre"
+     }
+    ]
+   },
+   "clave": {
+    "correcta": "b"
+   }
+  },
+  {
+   "codigo": "archivos-py-03",
+   "tema": "archivos",
+   "tipo": "respuesta_corta",
+   "nivel": "recall",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué modo se pasa a `open` para abrir un archivo de texto para escritura? Escribe solo la letra."
+   },
+   "clave": {
+    "aceptadas": [
+     "w"
+    ]
+   }
+  },
+  {
+   "codigo": "archivos-py-04",
+   "tema": "archivos",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "¿Qué imprime exactamente este programa?\n\n```python\nwith open(\"d.txt\", \"w\") as f:\n    f.write(\"7 8\\n\")\nwith open(\"d.txt\") as f:\n    a, b = f.read().split()\nprint(int(a) + int(b))\n```"
+   },
+   "clave": {
+    "salida": "15\n"
+   },
+   "verificacion": {
+    "programa": "with open(\"d.txt\", \"w\") as f:\n    f.write(\"7 8\\n\")\nwith open(\"d.txt\") as f:\n    a, b = f.read().split()\nprint(int(a) + int(b))",
+    "entrada": "",
+    "salida": "15\n"
+   }
+  },
+  {
+   "codigo": "archivos-py-05",
+   "tema": "archivos",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas: el programa escribe 1, 2 y 3 en un archivo, lo vuelve a abrir y suma lo que lee. Debe imprimir `6`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "with open(\"n.txt\", \"w\") as f:"
+     },
+     {
+      "id": "l2",
+      "texto": "    f.write(\"1\\n2\\n3\\n\")"
+     },
+     {
+      "id": "l3",
+      "texto": "s = 0"
+     },
+     {
+      "id": "l4",
+      "texto": "with open(\"n.txt\") as g:"
+     },
+     {
+      "id": "l5",
+      "texto": "    for linea in g:"
+     },
+     {
+      "id": "l6",
+      "texto": "        s += int(linea)"
+     },
+     {
+      "id": "l7",
+      "texto": "print(s)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7"
+    ]
+   },
+   "verificacion": {
+    "programa": "with open(\"n.txt\", \"w\") as f:\n    f.write(\"1\\n2\\n3\\n\")\ns = 0\nwith open(\"n.txt\") as g:\n    for linea in g:\n        s += int(linea)\nprint(s)",
+    "entrada": "",
+    "salida": "6\n"
+   }
+  },
+  {
+   "codigo": "archivos-py-06",
+   "tema": "archivos",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y, en la línea siguiente, `n` enteros. Escríbelos en el archivo `datos.txt`, uno por línea. Después vuelve a abrir ese archivo, lee los números e imprime su suma."
+   },
+   "solucion": "n = int(input())\nnumeros = input().split()\nwith open(\"datos.txt\", \"w\") as f:\n    for x in numeros[:n]:\n        f.write(x + \"\\n\")\nsuma = 0\nwith open(\"datos.txt\") as f:\n    for linea in f:\n        suma += int(linea)\nprint(suma)",
+   "casos_prueba": [
+    {
+     "entrada": "3\n1 2 3",
+     "salida_esperada": "6",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n10",
+     "salida_esperada": "10",
+     "oculto": false
+    },
+    {
+     "entrada": "2\n-4 4",
+     "salida_esperada": "0",
+     "oculto": true
+    }
+   ]
+  },
+  {
+   "codigo": "busqueda-ordenamiento-py-01",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "prediccion_salida",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Este programa hace **una** pasada del ordenamiento de burbuja. ¿Qué imprime exactamente?\n\n```python\nv = [4, 3, 2, 1]\nfor i in range(3):\n    if v[i] > v[i + 1]:\n        v[i], v[i + 1] = v[i + 1], v[i]\nprint(v)\n```"
+   },
+   "clave": {
+    "salida": "[3, 2, 1, 4]\n"
+   },
+   "verificacion": {
+    "programa": "v = [4, 3, 2, 1]\nfor i in range(3):\n    if v[i] > v[i + 1]:\n        v[i], v[i + 1] = v[i + 1], v[i]\nprint(v)",
+    "entrada": "",
+    "salida": "[3, 2, 1, 4]\n"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-py-02",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "parsons",
+   "nivel": "comprension",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Ordena las líneas de una búsqueda lineal: imprime la posición del número buscado. Debe imprimir `2`.",
+    "lineas": [
+     {
+      "id": "l1",
+      "texto": "v = [8, 3, 5, 1, 9]"
+     },
+     {
+      "id": "l2",
+      "texto": "buscado = 5"
+     },
+     {
+      "id": "l3",
+      "texto": "pos = -1"
+     },
+     {
+      "id": "l4",
+      "texto": "for i in range(5):"
+     },
+     {
+      "id": "l5",
+      "texto": "    if v[i] == buscado:"
+     },
+     {
+      "id": "l6",
+      "texto": "        pos = i"
+     },
+     {
+      "id": "l7",
+      "texto": "print(pos)"
+     }
+    ]
+   },
+   "clave": {
+    "orden": [
+     "l1",
+     "l2",
+     "l3",
+     "l4",
+     "l5",
+     "l6",
+     "l7"
+    ]
+   },
+   "verificacion": {
+    "programa": "v = [8, 3, 5, 1, 9]\nbuscado = 5\npos = -1\nfor i in range(5):\n    if v[i] == buscado:\n        pos = i\nprint(pos)",
+    "entrada": "",
+    "salida": "2\n"
+   }
+  },
+  {
+   "codigo": "busqueda-ordenamiento-py-03",
+   "tema": "busqueda-ordenamiento",
+   "tipo": "programacion",
+   "nivel": "practica",
+   "lenguajes": [
+    "python"
+   ],
+   "enunciado": {
+    "md": "Lee `n` y, en la línea siguiente, `n` enteros. Ordénalos de menor a mayor con burbuja (sin usar `sort` ni `sorted`) e imprímelos separados por un espacio."
+   },
+   "solucion": "n = int(input())\nv = list(map(int, input().split()))\nfor i in range(n - 1):\n    for j in range(n - 1 - i):\n        if v[j] > v[j + 1]:\n            v[j], v[j + 1] = v[j + 1], v[j]\nprint(\" \".join(map(str, v)))",
+   "casos_prueba": [
+    {
+     "entrada": "4\n3 1 4 2",
+     "salida_esperada": "1 2 3 4",
+     "oculto": false
+    },
+    {
+     "entrada": "1\n5",
+     "salida_esperada": "5",
+     "oculto": false
+    },
+    {
+     "entrada": "3\n9 9 1",
+     "salida_esperada": "1 9 9",
+     "oculto": true
+    }
+   ]
+  }
+ ]
+}
